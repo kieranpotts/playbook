@@ -1,1 +1,7 @@
 = Methodology
+
+A process framework for software development, maintenance and operations.
+
+''''
+
+Copyright © 2020-present Kieran Potts, all rights reserved
