@@ -10,5 +10,7 @@
     /* EditorConfig — .editorconfig file support. */
     "editorconfig.editorconfig",
 
+    /* Plant UML — Serve UML diagrams from plain text markup. */
+    "jebbs.plantuml",
   ]
 }
