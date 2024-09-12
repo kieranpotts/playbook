@@ -1,7 +1,6 @@
-= Methodology
-
-A process framework for software development, maintenance and operations.
+= Software Development Methodology
 
 ''''
 
 Copyright © 2020-present Kieran Potts, all rights reserved
+
