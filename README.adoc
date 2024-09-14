@@ -1,5 +1,17 @@
 = Software Development Methodology
 
+Many things are needed to make a success of a software project: great leadership,
+great people, strong financials, favorable market conditions, and a suitable
+process. This documentation is focused on the latter.
+
+Software development is a human-centred process, or a social activity, more
+than it is a technical one. Software development is a _system_ in itself, in
+the same way that organizations are systems for organizing people and resources
+to achieve common goals. A software development methodology is a process or
+system that organizes people and resources to deliver IT solutions for target
+user groups.
+
+
 ''''
 
 Copyright © 2020-present Kieran Potts, all rights reserved
