@@ -12,6 +12,13 @@ system that organizes people and resources to deliver IT solutions for target
 user groups.
 
 
+== Contents
+
+
+* link:./references.adoc[*References*]
+  — A list of resources that have influenced the methods and tools documented in
+    this engineering playbook.
+
 == Terminology
 
 Throughout this documentation, the following terms, when capitalized, shall

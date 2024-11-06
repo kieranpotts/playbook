@@ -1,0 +1,19 @@
+= References
+
+The following resources have influenced the methods and tools documented in
+this engineering playbook.
+
+== Process frameworks and models
+
+* https://agilemanifesto.org/[The Agile Manifesto]
+
+* http://www.extremeprogramming.org/[Extreme Programming (XP)]
+
+* https://github.com/Microsoft/vscode/wiki/Development-Process[VS Code Development Process]
+
+== Books and research
+
+* https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html[What Google learned from its quest to build the perfect team]
+
+* https://insight.kellogg.northwestern.edu/building-leading-great-teams-research[What science can tell us about building great teams],
+  Kellogg Insight
