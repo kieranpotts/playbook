@@ -12,7 +12,14 @@ system that organizes people and resources to deliver IT solutions for target
 user groups.
 
 
+== Terminology
+
+Throughout this documentation, the following terms, when capitalized, shall
+indicate *requirement levels* as defined in
+https://datatracker.ietf.org/doc/html/rfc2119[IETF RFC 2119]:
+"MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
+"SHOULD NOT", "RECOMMENDED",  "MAY" and "OPTIONAL".
+
 ''''
 
 Copyright © 2020-present Kieran Potts, all rights reserved
-
