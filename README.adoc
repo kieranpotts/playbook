@@ -1,4 +1,7 @@
-= Software Development Methodology
+= Playbook
+
+*My software development playbook – methods and tools for designing, planning,
+developing, maintaining and operating software-as-a-service products.*
 
 Many things are needed to make a success of a software project: great leadership,
 great people, strong financials, favorable market conditions, and a suitable
