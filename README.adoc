@@ -22,14 +22,7 @@ user groups.
   — A list of resources that have influenced the methods and tools documented in
     this engineering playbook.
 
-== Terminology
-
-Throughout this documentation, the following terms, when capitalized, shall
-indicate *requirement levels* as defined in
-https://datatracker.ietf.org/doc/html/rfc2119[IETF RFC 2119]:
-"MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
-"SHOULD NOT", "RECOMMENDED",  "MAY" and "OPTIONAL".
-
 ''''
 
-Copyright © 2020-present Kieran Potts, all rights reserved
+Copyright © 2020-present Kieran Potts +
+[CC BY-SA 4.0](./LICENSE.txt)
