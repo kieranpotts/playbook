@@ -1,19 +1,8 @@
 = Playbook
 
-*My software development playbook – methods and tools for designing, planning,
-developing, maintaining and operating software-as-a-service products.*
-
-Many things are needed to make a success of a software project: great leadership,
-great people, strong financials, favorable market conditions, and a suitable
-process. This documentation is focused on the latter.
-
-Software development is a human-centred process, or a social activity, more
-than it is a technical one. Software development is a _system_ in itself, in
-the same way that organizations are systems for organizing people and resources
-to achieve common goals. A software development methodology is a process or
-system that organizes people and resources to deliver IT solutions for target
-user groups.
-
+This is a playbook for the design, planning, development, maintenance, and
+operation of software-as-a-service products. It documents methods and tools
+for the delivery of high quality, continuously evolving software services.
 
 == Contents
 
