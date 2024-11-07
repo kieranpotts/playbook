@@ -1,0 +1,16 @@
+= Inspiration
+
+Nothing in this playbook is new. The principles, practices, processes, tools,
+and artifacts mentioned in this playbook are all well-established in our
+industry. Most of them have been around for decades, some since the very
+beginning of digital computers.
+
+The link:../references.adoc[references] section lists the resources that have
+been the most influential in shaping the methods and tools documented in this
+playbook.
+
+But the particular combination of methods and tools in this playbook is formed
+from our own experiences and experimentation. Inevitably, this playbook is
+opinionated. It reflects our own professional values and principles, and our
+own beliefs about how best to go about the business of making commercial
+software.

@@ -3,5 +3,7 @@
 Throughout this documentation, the following terms, when capitalized, shall
 indicate *requirement levels* as defined in
 https://datatracker.ietf.org/doc/html/rfc2119[IETF RFC 2119]:
-"MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
-"SHOULD NOT", "RECOMMENDED",  "MAY" and "OPTIONAL".
+
+* "REQUIRED" and "MUST"/"MUST NOT"
+* "RECOMMENDED" and "SHOULD"/"SHOULD NOT"
+* "OPTIONAL" and "MAY"

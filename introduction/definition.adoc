@@ -1,0 +1,27 @@
+= Definition
+
+A software development playbook is a system for organizing people and resources
+in software development projects.
+
+It is a collection of methods and tools that are designed to work together to
+create an optimal software development process for the needs of the organization
+that owns the software (the vendor).
+
+A software development playbook – invariably called a software development
+process, framework, methodology, guidebook, or handbook – focuses on the human
+and organizational side of software development, rather than the technical side.
+
+This is important, because to produce software that adds real value to the
+people and organizations who use it, you need a lot more than just technical
+skills. The development of commercial software is as much of a social,
+human-centric process as it is a technical discipline. After all, the delivery
+of good quality and useful software depends on groups of people – with diverse
+knowledge and expertise, not only technical skills – coming together and
+collaborating on solving problems for other people.
+
+It just so happens that the solutions to those problems are implemented in
+computer systems. But the solutions themselves are designed – and perhaps even
+the original problems themselves are discovered - through human collaboration.
+
+A software system is, ultimately, only a computer model of a particular solution
+to a real world problem.

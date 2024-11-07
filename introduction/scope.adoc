@@ -1,0 +1,63 @@
+= Scope
+
+Software development is a complex and multifaceted field. Many things are
+needed to make a success of a software project: excellent technical
+capabilities, obviously, but also a deep understanding of the real-world
+problems the software is intended to solve, and of the people and organizations
+who will use the software. And, for software to be _commercially_ successful,
+you need a viable business model, strong financials, favorable market
+conditions, and much more besides.
+
+You also need a suitable software development process. And that's what a
+software development playbook is all about. Playbooks are templates for the
+organizational _process_ of designing, planning, developing, maintaining, and
+operating software products.
+
+This software development playbook is:
+
+* An *organization system*. A playbook defines the roles and responsibilities of
+  the people involved in the software development process. It suggests how those
+  people should be organized into teams – each team working on a different part
+  of the overall solution – and how those teams should collaborate to deliver
+  a cohesive software product.
+
+* An *operational guide*. A playbook explains how individual teams should
+  function day-to-day. It sets out the methods and tools that the teams should
+  use to manage their work, and the artifacts that they should produce, besides
+  the code and configuration for the software itself.
+
+* A *change management system*. A playbook prescribes how to manage changing
+  priorities, and how to track requirements and constraints from idea to
+  implementation. It also sets standards for the specification of software
+  requirements – both functional and quality requirements.
+
+* A *development life cycle workflow*: A playbook documents the steps that the
+  technical people follow to shepherd changes in software code and configuration
+  from development via testing to production. It also defines the tools that are
+  used to automated recurring tasks within the development life cycle of each
+  discrete change.
+
+Some software development playbooks also cover the topic of *technical standards*
+and best practices. However, this topic is out of the scope of this particular
+playbook, which is focused on the human and organizational aspects of software
+development, rather than the technical aspects.
+
+There can be no one-size-fit-all playbook for running software projects. There
+are many ways to approach software development, and the optimum approach will
+depend on the context. For example, the methods and tools used to develop
+embedded software for a medical device ought to be very different to the methods
+and tools used to develop a mobile app for a consumer market sector. That's
+because those are two very different types of software product, with very
+different sets of requirements and constraints, and serving very different
+commercial sectors and user groups.
+
+This playbook is tailored for the delivery of software-as-a-service (SaaS)
+enterprise application software (EAS). It is a collection of methods and tools
+that, together, optimize the software development process for the delivery of
+high quality business software services and applications, which are distributed
+via the World Wide Web.
+
+Of course, this playbook could be used as the basis for making other types of
+software product. But this playbook is designed primarily for the design,
+planning, development, maintenance, and operation of enterprise application
+software-as-a-service.

@@ -1,0 +1,34 @@
+= Philosophy
+
+This software development playbook is rooted in the values and principles of
+the link:https://agilemanifesto.org/[agile manifesto] and the practices of
+link:http://www.extremeprogramming.org/[Extreme Programming (XP)].
+
+The authors of this playbook believe strongly that the _original_ agile
+principles, and the practices of the _original_ agile framework, XP, provide the
+best, most solid foundation for building enterprise application
+software-as-a-service – particularly at scale.
+
+////
+TODO: Briefly summarize the agile values and principles here.
+////
+
+Unfortunately, a lot of process dogma has emerged in the two decades since the
+2001 agile manifesto. Project management frameworks such as
+link:https://www.scrum.org/learning-series/what-is-scrum/[Scrum] and
+link:https://kanbanguides.org/[Kanban] have hijacked the "agile" brand, so the
+colloquial meaning of the term has changed from the intent of the manifesto
+authors. For this reason, the authors of this playbook have avoided using the
+term "agile" altogether. We instead write about specific principles like
+iterative design and incremental build, and specific practices like test-driven
+development and continuous integration.
+
+An iterative and incremental approach is taken to this playbook, too. This is
+a "living document", which means it is continuously evolving as we learn from
+our experiences and adapt our ways of working to the changing contexts in which
+we find ourselves.
+
+A software development playbook works best when it is treated, not as a rigid
+set of rules and procedures, but as a set of continuously evolving principles
+and practices that we have found, through experimentation and learning, to be
+most effective.
