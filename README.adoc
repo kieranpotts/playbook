@@ -17,6 +17,10 @@ for the delivery of high quality, continuously evolving software services.
 * link:./introduction[*Introduction*]
   — The purpose and scope of this engineering playbook.
 
+* link:./principles[*Principles*]
+  — The ideas that underpin the ways of working advocated in this
+    playbook.
+
 
 * link:./references.adoc[*References*]
   — A list of resources that have influenced the methods and tools documented in
