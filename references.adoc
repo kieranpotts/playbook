@@ -9,9 +9,13 @@ this engineering playbook.
 
 * http://www.extremeprogramming.org/[Extreme Programming (XP)]
 
+== Project-specific development processes
+
+* https://handbook.gitlab.com/[GitLab Handbook]
+
 * https://github.com/Microsoft/vscode/wiki/Development-Process[VS Code Development Process]
 
-== Books and research
+== Research
 
 * https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html[What Google learned from its quest to build the perfect team]
 
