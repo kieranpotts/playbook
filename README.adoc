@@ -1,5 +1,13 @@
 = Playbook
 
+[NOTE]
+======
+This repository is a template for a software development playbook. It is
+intended to be forked and customized to suit the needs of a particular
+organization. The content of this repository is distributed under a Creative
+Commons license and you are free to copy and adapt it for your own purposes.
+======
+
 This is a playbook for the design, planning, development, maintenance, and
 operation of software-as-a-service products. It documents methods and tools
 for the delivery of high quality, continuously evolving software services.
