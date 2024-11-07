@@ -24,5 +24,5 @@ for the delivery of high quality, continuously evolving software services.
 
 ''''
 
-Copyright © 2020-present Kieran Potts +
-[CC BY-SA 4.0](./LICENSE.txt)
+Copyright © 2020-2025 Kieran Potts +
+link:./LICENSE.txt[CC BY-SA 4.0]
