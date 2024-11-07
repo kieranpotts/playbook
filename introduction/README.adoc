@@ -12,6 +12,9 @@
   — The guiding principles that underpin the approach that this particular
     playbook takes to software development.
 
+* link:./objectives.adoc[*Objectives*]
+  — The goals that this playbook aims to achieve.
+
 * link:./inspiration.adoc[*Inspiration*]
   — The sources of inspiration for this playbook.
 
