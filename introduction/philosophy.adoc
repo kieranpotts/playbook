@@ -22,13 +22,3 @@ authors. For this reason, the authors of this playbook have avoided using the
 term "agile" altogether. We instead write about specific principles like
 iterative design and incremental build, and specific practices like test-driven
 development and continuous integration.
-
-An iterative and incremental approach is taken to this playbook, too. This is
-a "living document", which means it is continuously evolving as we learn from
-our experiences and adapt our ways of working to the changing contexts in which
-we find ourselves.
-
-A software development playbook works best when it is treated, not as a rigid
-set of rules and procedures, but as a set of continuously evolving principles
-and practices that we have found, through experimentation and learning, to be
-most effective.

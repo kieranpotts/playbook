@@ -1,0 +1,41 @@
+= Objectives
+
+An iterative and incremental approach is taken to this playbook, too. This is
+a "living document", which means it is continuously evolving as we learn from
+our experiences and adapt our ways of working to the changing contexts in which
+we find ourselves.
+
+A software development playbook works best when it is treated, not as a rigid
+set of rules and procedures, but as a set of continuously evolving principles
+and practices that the software development teams have found, through
+experience and experimentation, to be most effective.
+
+The playbook is a shared resource, owned and maintained by the development teams,
+who have collective autonomy to design their own ways of working. This resource
+is intended to _empower_ teams, not _constrain_ them. The rules of the playbook
+are not enforced by a central authority, but are the collective agreement of the
+development teams.
+
+The playbook thus represents the current consensus of the development teams on
+the ways of working that best suit our needs.
+
+As well as reflecting the current state of our practices, the playbook also
+provides a system for evolving our practices over time. The content of the
+playbook is subject to continuous improvement, and all members of the
+development teams are encouraged to contribute to its upkeep – which is done
+via the normal source control workflows. (See the
+link:../CONTRIBUTING.adoc[contributing guide] for more details.) The more
+people involved in keeping our playbook up-to-date, the more valuable this
+resource will be.
+
+A good playbook enables:
+
+* *Efficiency*. +
+  It makes decision making and onboarding faster.
+
+* *Consistency* +
+  It encourages uniform practices across teams and projects.
+
+* *Scalability* +
+  It enables teams to grow and work asynchronously, by  codifying knowledge
+  and processes.
