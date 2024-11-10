@@ -15,32 +15,39 @@ operating software products.
 
 This software development playbook is:
 
-* An *organization system*. A playbook defines the roles and responsibilities of
-  the people involved in the software development process. It suggests how those
-  people should be organized into teams – each team working on a different part
-  of the overall solution – and how those teams should collaborate to deliver
-  a cohesive software product.
+* An *organization system*. The playbook defines the roles and responsibilities
+  of the people involved in the software development process. It suggests how
+  those people should be organized into teams – each team working on a different
+  part of the overall solution – and how those teams should collaborate to
+  deliver a cohesive software product.
 
-* An *operational guide*. A playbook explains how individual teams should
+* An *operational guide*. The playbook explains how individual teams should
   function day-to-day. It sets out the methods and tools that the teams should
   use to manage their work, and the artifacts that they should produce, besides
   the code and configuration for the software itself.
 
-* A *change management system*. A playbook prescribes how to manage changing
+* A *change management system*. The playbook prescribes how to manage changing
   priorities, and how to track requirements and constraints from idea to
   implementation. It also sets standards for the specification of software
   requirements – both functional and quality requirements.
 
-* A *development life cycle workflow*: A playbook documents the steps that the
+* A *development life cycle workflow*: The playbook documents the steps that the
   technical people follow to shepherd changes in software code and configuration
   from development via testing to production. It also defines the tools that are
   used to automated recurring tasks within the development life cycle of each
   discrete change.
 
-Some software development playbooks also cover the topic of *technical standards*
-and best practices. However, this topic is out of the scope of this particular
-playbook, which is focused on the human and organizational aspects of software
-development, rather than the technical aspects.
+Some software development playbooks also cover *technical standards* and topics
+related to *software design* and architecture. However, these topics are out of
+scope of this particular playbook, which is focused on the human and
+organizational aspects of software development, rather than the technical
+aspects.
+
+As a general-purpose playbook, which could be applied to the development of
+software products for many different commercial sectors and problem spaces, this
+playbook also does not cover topics such as *domain knowledge* or organization
+*vision and mission*. These things are context specific but are nonetheless
+factors that influence successful outcomes in software projects.
 
 There can be no one-size-fit-all playbook for running software projects. There
 are many ways to approach software development, and the optimum approach will
