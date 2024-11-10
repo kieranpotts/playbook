@@ -19,8 +19,9 @@ for the delivery of high quality, continuously evolving software services.
 
 * link:./principles[*Principles*]
   — The ideas that underpin the ways of working advocated in this
-    playbook.
 
+* link:./practices[*Practices*]
+  — Regular activities and procedures.
 
 * link:./references.adoc[*References*]
   — A list of resources that have influenced the methods and tools documented in
