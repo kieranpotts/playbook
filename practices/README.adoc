@@ -5,3 +5,4 @@ Practices are things that we do regularly in the course of our work.
 == Contents
 
 * link:./estimating.adoc[*Estimating*]
+* link:./measurement.adoc[*Measurement*]
