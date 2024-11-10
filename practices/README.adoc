@@ -8,4 +8,5 @@ Practices are things that we do regularly in the course of our work.
 * link:./prioritization.adoc[*Prioritization*]
 * link:./measurement.adoc[*Measurement*]
 * link:./retrospectives.adoc[*Retrospectives*]
+* link:./post-mortems.adoc[*Post-mortems*]
 * link:./workshops.adoc[*Workshops*]
