@@ -1,1 +1,9 @@
 = Principles
+
+This section answers the "why" behind our software development
+link:./practices[*practices*]. This section sets out shared values and
+principles that guid how we make decisions. These are _cultural_ stances,
+eg. "fix problems even when they are not yours".
+
+== Contents
+
