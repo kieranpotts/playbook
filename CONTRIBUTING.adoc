@@ -1,0 +1,45 @@
+= How to contribute to this playbook
+
+Anyone with write access to this repository can contribute changes to this
+playbook using the normal source control workflow.
+
+Everyone is encouraged to keep this playbook up-to-date, and to continuously
+improve the quality of its content. As with any living documentation, the more
+people involved in its upkeep, the more valuable the documentation will become.
+
+== Guidelines
+
+The following guidelines will help you to contribute good quality content to
+this playbook:
+
+* *Useful*: Above all, the content of the playbook must be useful. Documentation
+  should be written in plain language and simple sentences. Jargon should be
+  avoided where possible, and explained where it is necessary. Use examples for
+  illustration, and provide links to related reference material.
+
+* *Discoverable*: It should be easy to find the content that you're looking
+  for. This requires the content to be organized into an intuitive structure,
+  with a clear hierarchy and minimal nesting.
+
+* *Contextual* – Organize documents around how you will use them. Think about
+  what they are useful for, in which situations you will need the information,
+  and put the content in that section of the playbook.
+
+* *Reuse*: Design individual items of content to be reused, by connecting to
+  them (using links) from other content. The more that information is reused,
+  the more value it provides, and so the more it repays the cost of writing and
+  maintaining it. To promote reusability, keep individual documents small and
+  cohesive, and focused on a single concept.
+
+* *Experiment*: Don't be afraid to experiment with the structure and content
+  of the playbook. Take an iterative and incremental approach to the playbook's
+  development. Add placeholders for sections you think you will need to write
+  later. Start small, with the content that matters most to your team, and let
+  it evolve organically.
+
+These are the primary qualities that we should strive for when making changes to
+the playbook. These qualities are more important than the content being complete,
+comprehensive, or even correct. Documentation is more likely to be maintained and
+updated when the content is already useful, and when it is already easy to find
+what you're looking for. Remove these qualities and documentation tends to
+become stale and out-of-date.

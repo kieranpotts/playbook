@@ -26,6 +26,9 @@ for the delivery of high quality, continuously evolving software services.
   — A list of resources that have influenced the methods and tools documented in
     this engineering playbook.
 
+* link:./CONTRIBUTING.adoc[*Contributing*]
+  — How to contribute to this playbook.
+
 ''''
 
 Copyright © 2020-2025 Kieran Potts +
