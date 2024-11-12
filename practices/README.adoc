@@ -9,6 +9,7 @@ Practices are things that we do regularly in the course of our work.
 * link:./pair-programming.adoc[*Pair programming*]
 * link:./retrospectives.adoc[*Retrospectives*]
 * link:./post-mortems.adoc[*Post-mortems*]
+* link:./pull-requests.adoc[*Pull requests*]
 * link:./workshops.adoc[*Workshops*]
 * link:./user-surveys.adoc[*User surveys*]
 * link:./customer-feedback.adoc[*Customer feedback*]
