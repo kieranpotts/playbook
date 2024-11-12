@@ -22,3 +22,7 @@ authors. For this reason, the authors of this playbook have avoided using the
 term "agile" altogether. We instead write about specific principles like
 iterative design and incremental build, and specific practices like test-driven
 development and continuous integration.
+
+// TODO: Support modern remote-first and hybrid working practices.
+// TODO: Using technology to overcome geographical constraints, but
+// nevertheless the process is highly collaborative.
