@@ -10,3 +10,5 @@ Practices are things that we do regularly in the course of our work.
 * link:./retrospectives.adoc[*Retrospectives*]
 * link:./post-mortems.adoc[*Post-mortems*]
 * link:./workshops.adoc[*Workshops*]
+* link:./user-surveys.adoc[*User surveys*]
+* link:./customer-feedback.adoc[*Customer feedback*]
