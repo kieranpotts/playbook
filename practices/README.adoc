@@ -4,7 +4,6 @@ Practices are things that we do regularly in the course of our work.
 
 == Contents
 
-* link:./customer-feedback.adoc[*Customer feedback*]
 * link:./estimating.adoc[*Estimating*]
 * link:./pair-programming.adoc[*Pair programming*]
 * link:./post-mortems.adoc[*Post-mortems*]
