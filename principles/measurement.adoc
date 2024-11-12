@@ -1,2 +1,19 @@
 = Measurement
 
+How can we know if a software project is going well?
+
+The answer is to measure it. We need to gather data on the project's progress
+and use that data to make decisions about how to proceed.
+
+This playbook RECOMMENDS that data be gathered from a variety of sources,
+including:
+
+* Team surveys ("health checks")
+* Customer feedback
+* Artifacts such as changelogs
+
+It is also RECOMMENDED that system metrics, such as performance and uptime, also
+be monitored to measure the evolving quality of the software product. However,
+observability is a technical concern and is not therefore covered by this
+playbook. And other data sources not covered in this playbook, such as financial
+data and market research, may also be relevant.
