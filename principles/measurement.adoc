@@ -2,18 +2,24 @@
 
 How can we know if a software project is going well?
 
-The answer is to measure it. We need to gather data on the project's progress
-and use that data to make decisions about how to proceed.
+The answer is to measure it.
 
 This playbook RECOMMENDS that data be gathered from a variety of sources,
 including:
 
-* link:../practices/team-health-checks.adoc[Team health checks]
+* link:../practices/team-sentiment-surveys.adoc[Team sentiment surveys]
+* link:../practices/technical-health-checks.adoc[Technical health checks]
+* link:../artifacts/delivery-metrics.adoc[Delivery metrics]
+* link:../artifacts/system-metrics.adoc[System metrics]
 * link:../practices/user-surveys.adoc[User surveys]
-* Artifacts such as link:../artifacts/changelogs.adoc[changelogs]
 
-It is also RECOMMENDED that system metrics, such as performance and uptime, also
-be monitored to measure the evolving quality of the software product. However,
-observability is a technical concern and is not therefore covered by this
-playbook. And other data sources not covered in this playbook, such as financial
-data and market research, may also be relevant.
+These each provide a different perspective on the software project. For example,
+technical health checks and system metrics provide insight into the quality of
+the software product, while delivery metrics and team sentiment surveys provide
+insight into the effectiveness of the software delivery process. User surveys
+provide insight into the value delivered to users, from the perspective of the
+users themselves.
+
+Together, these metrics provide a comprehensive view of the direction of the
+software project – whether it is on a path to success, or otherwise – and help
+to identify areas where things could be improved.

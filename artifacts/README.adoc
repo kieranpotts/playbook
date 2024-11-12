@@ -9,9 +9,11 @@ supplementary materials "artifacts".
 == Contents
 
 * link:./changelogs.adoc[Changelogs]
+* link:./delivery-metrics[Delivery metrics]
 * link:./definition-of-ready.adoc[Definition of "ready"]
 * link:./definition-of-done.adoc[Definition of "done"]
 * link:./documentation.adoc[Documentation]
 * link:./release-notes.adoc[Release notes]
 * link:./roadmap.adoc[Roadmap]
+* link:./system-metrics.adoc[System metrics]
 * link:./system-requirements-specification.adoc[System Requirements Specification]
