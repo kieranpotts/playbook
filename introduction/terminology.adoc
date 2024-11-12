@@ -12,34 +12,34 @@ https://datatracker.ietf.org/doc/html/rfc2119[IETF RFC 2119]:
 
 == User roles
 
-In this documentation the terms *Customer* and *User*, written in title case,
-refer to different groups of stakeholders. Customers are the people or
-organizations who pay for a license or subscription to use the software, while
-Users are the people who use the software.
+In this documentation the terms *customer* and *user* refer to different groups
+of stakeholders. Customers are the people or organizations who pay for a license
+or subscription to use the software, while users are the people who use the
+software.
 
-Consider, for example, a learning management system. The Customers will normally
-be schools, university, and other educational institutions. The Users will be
+Consider, for example, a learning management system. The customers will normally
+be schools, university, and other educational institutions. The users will be
 the students and teachers.
 
-In this documentation the term *Client* is used to refer to another distinct
+In this documentation the term *client* is used to refer to another distinct
 group of stakeholders. Clients are the people who commission the development of
 the software product. They pay the bills for the cost of the software's
 development, maintenance, and operation.
 
-A Client may also be the *Vendor* of the software product. The Vendor is the
+A client may also be the *vendor* of the software product. The vendor is the
 organization that produces the intellectual property in the software's source
 code and configuration.
 
 If the development of a software product is outsourced to a third-party
-organization, that organization is the Vendor. The Vendor's Client is the
+organization, that organization is the vendor. The vendor's client is the
 organization that commissioned the software's development.
 
 The boundaries between these user roles are not always clear-cut. There may be
-overlapping roles. It will often be the case that the Customer will also be a
-User of the software. For enterprise application software that's developed for
-internal use within a single organization, the Customer and the Client are
+overlapping roles. It will often be the case that the customer will also be a
+user of the software. For enterprise application software that's developed for
+internal use within a single organization, the customer and the client are
 the same entity. If the software is made in-house, that entity is also the
-Vendor.
+vendor.
 
 Nevertheless, these distinctions are important because each group of stakeholders
 has different interests and concerns. The needs of each group must be considered
