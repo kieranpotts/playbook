@@ -10,7 +10,7 @@ including:
 
 * Team surveys ("health checks")
 * Customer feedback
-* Artifacts such as changelogs
+* Artifacts such as link:../artifacts/changelogs.adoc[changelogs]
 
 It is also RECOMMENDED that system metrics, such as performance and uptime, also
 be monitored to measure the evolving quality of the software product. However,
