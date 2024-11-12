@@ -4,12 +4,14 @@ Practices are things that we do regularly in the course of our work.
 
 == Contents
 
-* link:./estimating.adoc[*Estimating*]
-* link:./prioritization.adoc[*Prioritization*]
-* link:./pair-programming.adoc[*Pair programming*]
-* link:./retrospectives.adoc[*Retrospectives*]
-* link:./post-mortems.adoc[*Post-mortems*]
-* link:./pull-requests.adoc[*Pull requests*]
-* link:./workshops.adoc[*Workshops*]
-* link:./user-surveys.adoc[*User surveys*]
 * link:./customer-feedback.adoc[*Customer feedback*]
+* link:./estimating.adoc[*Estimating*]
+* link:./pair-programming.adoc[*Pair programming*]
+* link:./post-mortems.adoc[*Post-mortems*]
+* link:./prioritization.adoc[*Prioritization*]
+* link:./pull-requests.adoc[*Pull requests*]
+* link:./retrospectives.adoc[*Retrospectives*]
+* link:./team-health-checks.adoc[*User surveys*]
+* link:./user-surveys.adoc[*User surveys*]
+* link:./workshops.adoc[*Workshops*]
+
