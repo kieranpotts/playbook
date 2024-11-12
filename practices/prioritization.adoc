@@ -1,2 +1,21 @@
 = Prioritization
 
+There are several possible strategies for prioritizing work. The RECOMMENDED
+strategy is the MoSCoW convention:
+
+* *Must have*:
+  The change should be implemented and released as soon as practically possible.
+
+* *Should have*:
+  The change is important but the timing of its release is not so important.
+
+* *Could have*:
+  A nice-to-have that doesn't add much business value.
+
+* *Won't have*:
+  The change has not been rejected outright, but it should not be implemented
+  at this time.
+
+////
+TODO: priority levels for incidents, P1, P2, etc.
+////
