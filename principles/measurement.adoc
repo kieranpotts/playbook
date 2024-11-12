@@ -9,7 +9,8 @@ This playbook RECOMMENDS that data be gathered from a variety of sources,
 including:
 
 * link:../practices/team-health-checks.adoc[Team health checks]
-* link:../practices/user-surveys.adoc[User surveys] and link:../practices/customer-feedback.adoc[customer feedback]
+* link:../practices/user-surveys.adoc[User surveys] and
+  link:../practices/customer-feedback.adoc[customer feedback]
 * Artifacts such as link:../artifacts/changelogs.adoc[changelogs]
 
 It is also RECOMMENDED that system metrics, such as performance and uptime, also
