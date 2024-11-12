@@ -24,6 +24,10 @@ for the delivery of high quality, continuously evolving software services.
   — Regular activities and procedures.
 
 
+* link:./artifacts[*Artifacts*]
+  — Besides code, other artifacts are produced from the software development
+    process.
+
 ''''
 
 * link:./references.adoc[*References*]
