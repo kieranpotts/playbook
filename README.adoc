@@ -23,7 +23,6 @@ for the delivery of high quality, continuously evolving software services.
 * link:./practices[*Practices*]
   — Regular activities and procedures.
 
-
 * link:./artifacts[*Artifacts*]
   — Besides code, other artifacts are produced from the software development
     process.
