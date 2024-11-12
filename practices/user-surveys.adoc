@@ -1,1 +1,10 @@
 = User surveys
+
+User surveys have two purposes:
+
+* To link:../principles/measurement.adoc[measure] the _outcomes_ delivery for
+  users.
+
+* To identify the remaining pain points for users, and identify areas where
+  the user experience or value delivered can be improved.
+

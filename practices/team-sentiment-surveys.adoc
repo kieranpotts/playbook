@@ -1,0 +1,51 @@
+= Team sentiment surveys
+
+:link-martin-fowler: https://martinfowler.com/articles/measuring-developer-productivity-humans.html
+:link-spotify-2014: https://engineering.atspotify.com/2014/09/squad-health-check-model/
+:link-spotify-2023: https://engineering.atspotify.com/2023/03/getting-more-from-your-team-health-checks/
+:link-getdx-1: https://getdx.com/podcast/shopify-developer-happiness-survey/
+:link-getdx-2: https://getdx.com/podcast/developer-productivity-at-google/
+
+Team sentiment surveys are an effective method for
+link:../principles/measurement.adoc[measuring] how a software project is going.
+
+For a complete picture, a mix of quantitative and qualitative data needs to be
+gathered. Quantitative data are measures of _quantities_. They are objective and
+can be easily summed and analyzed. Examples of quantitative data include
+measures of how often changes are deployed to production, how long the
+deployment process takes, and how often the deployment pipeline fails.
+
+Qualitative data are measures of _qualities_. They are more subjective and can
+therefore be harder to measure. But qualitative data help to provide a more
+nuanced view. They tend to be better, for example, at identifying areas for
+improvement in ways of working and other _human_ aspects of software development.
+Examples of qualitative data include observations of team dynamics, and views on
+the quality of work produced by a team.
+
+link:./technical-health-checks.adoc[Technical health checks] gather quantitative
+data and specialize in measures of the quality of the software product. Team
+sentiment surveys gather qualitative data and specialize in measures of the
+effectiveness of the teams and of software delivery process.
+
+For example, a technical health check might ask "how long does it take to go from
+code committed to code running in production?", the team sentiment survey might
+ask "how satisfied are you with the deployment process?"
+
+Team sentiment surveys measure the "developer experience" – the feelings and
+observations of the team members working on the project. This is important
+because productivity is directly related to job satisfaction and team
+behaviors.
+
+
+.Related links
+****
+* {link-martin-fowler}[Measuring developer productivity via humans],
+  Abi Noda and Tim Cochran, Martin Fowler's blog (2024)
+
+* {link-spotify-2023}[Getting more from your team health checks],
+  Spotify Engineering blog (2023)
+
+* {link-getdx-1}[How Spotify runs their developer happiness survey]
+
+* {link-getdx-2}[How Google measures and improves developer productivity]
+****
