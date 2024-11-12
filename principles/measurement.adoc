@@ -8,7 +8,7 @@ and use that data to make decisions about how to proceed.
 This playbook RECOMMENDS that data be gathered from a variety of sources,
 including:
 
-* Team surveys ("health checks")
+* link:../practices/team-health-checks.adoc[Team health checks]
 * Customer feedback
 * Artifacts such as link:../artifacts/changelogs.adoc[changelogs]
 
