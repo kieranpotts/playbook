@@ -1,2 +1,49 @@
 = Delivery metrics
 
+Delivery metrics are measures of the quantity and quality of the work produced
+by a software development team. They are usually objective metrics that can be
+generated automatically by tools such as CI/CD pipelines.
+
+When analyzed in combination with other link:../principals/measurements.adoc[measurements]
+such as link:../practices/team-sentiment-surveys.adoc[team sentiment surveys],
+delivery metrics can provide valuable insights into both the throughput and
+quality of the software development process, and help to identify areas where
+efficiency can be improved.
+
+However, some delivery metrics can be misleading or counterproductive if not
+interpreted wisely. This playbook recommends that a small set of carefully
+selected delivery metrics be tracked.
+
+The following delivery metrics are RECOMMENDED for tracking, as they are widely
+accepted as indicators of software delivery effectiveness:
+
+* *Lead time* and *cycle time*: Lead time is the total time between a change
+  being requested or a bug or incident reported, and a solution or fix being
+  released successfully to production. Lead time encompasses the whole
+  development life cycle of a software change, while cycle time measures the
+  only the speed of the development, testing and deployment phases, and does
+  not include the time a change takes to triage, design, plan, and approve, and
+  subsequently wait in a queue for available development and testing resource.
+  (An alternative metric is pull request cycle time, which is a subset of cycle
+  time that can be easier to measure but captures only the duration of time
+  that a PR is open.)
+
+* *Defect escape rate*: The percentage of defects found in production that were
+  not caught by the pre-production quality assurance checks.
+
+* *Production incidents*: The number of incidents reported in production systems
+  over a given period of time. Customer-reported issues SHOULD be weighted more
+  heavily than internally-reported issues.
+
+* *Mean time to recover (MTTR)*: The average time it takes to recover from a
+  production failure. It is RECOMMENDED also to measure the _range_ of recovery
+  times, and the _frequency_ of failures.
+
+* *Deployment frequency*: How often deployments are made to production, without
+  causing incidents or requiring rollbacks.
+
+Each of these metrics gives insight into different aspects of the software
+delivery process. For example, lead time helps to understand the overall
+efficiency and responsiveness of the development workflow, while cycle time
+provides a clearer picture of the team's productivity and efficiency once work
+starts.
