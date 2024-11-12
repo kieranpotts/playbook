@@ -44,10 +44,18 @@ organizational aspects of software development, rather than the technical
 aspects.
 
 As a general-purpose playbook, which could be applied to the development of
-software products for many different commercial sectors and problem spaces, this
-playbook also does not cover topics such as *domain knowledge* or organization
-*vision and mission*. These things are context specific but are nonetheless
-factors that influence successful outcomes in software projects.
+software products for many different commercial sectors and problem spaces, it
+does not cover topics such as *domain knowledge* or organization
+*vision and mission*. These things are context specific, but are nonetheless
+factors that influence the outcomes of software projects.
+
+Other topics that are outside of the scope of this playbook include employee
+recruitment, training, appraisals, compensation, retention, and other "human
+resources" matters. The quality of the work environment, the culture of the
+organization, and the well-being of the people who work there, are all hugely
+important to the success of a software project. But these are not topics that
+are specific to software development. These factors are important in any
+organization, regardless of the nature of the work that it does.
 
 There can be no one-size-fit-all playbook for running software projects. There
 are many ways to approach software development, and the optimum approach will
