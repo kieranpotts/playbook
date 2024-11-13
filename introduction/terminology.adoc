@@ -10,37 +10,43 @@ https://datatracker.ietf.org/doc/html/rfc2119[IETF RFC 2119]:
 * "RECOMMENDED" and "SHOULD"/"SHOULD NOT"
 * "OPTIONAL" and "MAY"
 
-== User roles
+== Stakeholder roles
 
-In this documentation the terms *customer* and *user* refer to different groups
-of stakeholders. Customers are the people or organizations who pay for a license
-or subscription to use the software, while users are the people who use the
-software.
+In this documentation, the term *software delivery* is used to refer to the
+end-to-end life cycle process of designing, planning, building, constructing,
+testing, releasing, maintaining, supporting, and operating software products.
+The term *delivery team* refers to a group of people who are collectively
+responsible for this whole process. Delivery teams are cross-functional, which
+means they are composed of people with different skills and expertise – as
+defined in the [roles] section of this playbook.
 
-Consider, for example, a learning management system. The customers will normally
-be schools, university, and other educational institutions. The users will be
-the students and teachers.
+The terms *customer* and *user* refer to different groups of stakeholders.
+Customers are the people or organizations who pay for a license or subscription
+to use the software, or who commissions the bespoke development of custom
+software, while users are the people who use the software. Consider,
+for example, a learning management system. The customers will normally be
+schools, university, and other educational institutions. The users will be the
+students and teachers. It will often be the case that the customer will also
+be a user of the software, but not all users will necessarily be customers.
 
-In this documentation the term *client* is used to refer to another distinct
-group of stakeholders. Clients are the people who commission the development of
-the software product. They pay the bills for the cost of the software's
-development, maintenance, and operation.
+The term *vendor* is used to refer to the organization who is paid by the
+customer to develop, maintain, and operate the software on their behalf. The
+vendor produces the intellectual property in the software's source code and
+configuration. Either the customer ultimately owns that intellectual property,
+by paying the vendor the full cost of developing the software, or the customer
+pays a license fee to the vendor to use the software, perhaps for only a limited
+time.
 
-A client may also be the *vendor* of the software product. The vendor is the
-organization that produces the intellectual property in the software's source
-code and configuration.
+If bespoke software is developed in-house, the customer and the vendor will be
+the same entity. But if the customer outsources development to a third-party
+organization, that third-party is the vendor.
 
-If the development of a software product is outsourced to a third-party
-organization, that organization is the vendor. The vendor's client is the
-organization that commissioned the software's development.
+In ths playbook, the term *the business* is sometimes used to refer collectively
+to the customers and users of the software, as well as any other stakeholders
+who do not have roles directly within the delivery teams but who nonetheless
+have vested interests – for commercial, regulatory, or other reasons – in the
+successful delivery of the software.
 
-The boundaries between these user roles are not always clear-cut. There may be
-overlapping roles. It will often be the case that the customer will also be a
-user of the software. For enterprise application software that's developed for
-internal use within a single organization, the customer and the client are
-the same entity. If the software is made in-house, that entity is also the
-vendor.
-
-Nevertheless, these distinctions are important because each group of stakeholders
-has different interests and concerns. The needs of each group must be considered
-when designing and planning the implementation of software solutions.
+These distinctions are important because each group of stakeholders has different
+interests and concern, and these varying interests and concerns need to be
+considered when designing and planning the implementation of software solutions.
