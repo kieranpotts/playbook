@@ -1,0 +1,49 @@
+= Hiring criteria
+
+:link-microsoft: https://www.microsoft.com/en-us/research/uploads/prod/2019/03/Paul-Li-MSR-Tech-Report.pdf
+
+This section sets out the skills and competencies required for roles on the
+delivery teams: software development, testing, and operations roles.
+
+Hiring criteria can be divided into two categories:
+
+* Technical skills
+* Soft skills
+
+== Technical skills
+
+More important than knowledge and experience with specific technologies is the
+ability and desire to continuously learn new technologies, and to choose the
+most appropriate solution for each problem.
+
+The most effective delivery teams are composed of individuals who do not
+necessarily have deep expertise in the technology stack of their solution,
+but rather who:
+
+* are passionate about their work;
+* are continuously improving, growing their capability to produce simple and
+  elegant software solutions;
+* are pragmatic, not dogmatic, about technical decisions;
+* will evaluate tradeoffs in design choices at multiple levels of abstraction;
+* can zoom in from big-picture strategies to low-level implementation details;
+* and who enjoy interacting with users and can anticipate their needs.
+
+These are universal technical skills. They can be applied in the context of
+any programming language and technology stack.
+
+== Soft skills
+
+Also known as culture fit, soft skills are the personal attributes that enable
+someone to collaborate effectively with othe people.
+
+////
+TODO
+////
+
+''''
+
+.Related links
+****
+* {link-microsoft}[What makes a great software engineer?],
+  Microsoft Research technical paper (2019)
+****

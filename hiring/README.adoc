@@ -1,0 +1,12 @@
+= Hiring
+
+This section sets out best practices for hiring and onboarding new team members.
+
+== Contents
+
+* link:./criteria.adoc[*Criteria*]
+  — The skills and competencies required for software development, testing, and
+    operations roles.
+
+* link:./interviewing[*Interviewing*]
+  — How to conduct interviews and assess candidates.
