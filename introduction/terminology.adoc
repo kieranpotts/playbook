@@ -20,14 +20,17 @@ responsible for this whole process. Delivery teams are cross-functional, which
 means they are composed of people with different skills and expertise – as
 defined in the [roles] section of this playbook.
 
-The terms *customer* and *user* refer to different groups of stakeholders.
-Customers are the people or organizations who pay for a license or subscription
-to use the software, or who commissions the bespoke development of custom
-software, while users are the people who use the software. Consider,
+The terms *customer* and *user* refer to similar, but distinct, stakeholder
+groups. Customers are the people or organizations who pay for a license or
+subscription to use the software, or who commissions the bespoke development of
+custom software, while users are the people who use the software. Consider,
 for example, a learning management system. The customers will normally be
 schools, university, and other educational institutions. The users will be the
-students and teachers. It will often be the case that the customer will also
-be a user of the software, but not all users will necessarily be customers.
+students and teachers.
+
+For simplicity, we can assume that all customers will also be users of the
+software (ie. customers are a subset of users). However, not all users will
+necessarily be customers.
 
 The term *vendor* is used to refer to the organization who is paid by the
 customer to develop, maintain, and operate the software on their behalf. The
