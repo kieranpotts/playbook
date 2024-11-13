@@ -20,30 +20,75 @@ accepted as indicators of software delivery effectiveness:
 * *Lead time* and *cycle time*: Lead time is the total time between a change
   being requested or a bug or incident reported, and a solution or fix being
   released successfully to production. Lead time encompasses the whole
-  development life cycle of a software change, while cycle time measures the
-  only the speed of the development, testing and deployment phases, and does
-  not include the time a change takes to triage, design, plan, and approve, and
-  subsequently wait in a queue for available development and testing resource.
-  (An alternative metric is pull request cycle time, which is a subset of cycle
-  time that can be easier to measure but captures only the duration of time
-  that a PR is open.)
+  development life cycle of a software change. Meanwhile, cycle time measures
+  only the speed of the development, testing and deployment phases. Cycle time
+  does not include the time a change takes to triage, design, plan, and approve,
+  and it does not include any time the change subsequently spends waiting in a
+  queue for available development and testing resource. (An alternative metric
+  is pull request cycle time, which is a subset of cycle time that can be easier
+  to measure but captures only the duration of time that a PR is open.)
 
-* *Defect escape rate*: The percentage of defects found in production that were
-  not caught by the pre-production quality assurance checks.
+* *Deployment frequency*: How often deployments are made to production, without
+  causing incidents or requiring rollbacks.
+
+* *Defect escape rate*: The percentage of bugs and other defects found in
+  production that were not caught by the pre-production quality assurance checks.
 
 * *Production incidents*: The number of incidents reported in production systems
-  over a given period of time. Customer-reported issues SHOULD be weighted more
-  heavily than internally-reported issues.
+  over a given period of time. Analysis MAY distinguish between customer-reported
+  incidents, internally-reported incidents, and incidents reported automatically
+  by monitoring systems.
 
 * *Mean time to recover (MTTR)*: The average time it takes to recover from a
   production failure. It is RECOMMENDED also to measure the _range_ of recovery
   times, and the _frequency_ of failures.
-
-* *Deployment frequency*: How often deployments are made to production, without
-  causing incidents or requiring rollbacks.
 
 Each of these metrics gives insight into different aspects of the software
 delivery process. For example, lead time helps to understand the overall
 efficiency and responsiveness of the development workflow, while cycle time
 provides a clearer picture of the team's productivity and efficiency once work
 starts.
+
+There may be other delivery metrics that you find useful to track, depending on
+the nature of your software product and the specific challenges you face.
+
+It is RECOMMENDED to choose concrete, objective metrics that can be easily
+measured and that are not subject to bias or manipulation. A common practice in
+software development is to use [story points] to estimate the scope of work
+involved in each task, and then use the number of points completed within
+recurring timeboxed periods (widely called "sprints") as a measure of development
+velocity. However, this practice is NOT RECOMMENDED, as story points are
+too abstract to be a reliable measure of delivery throughput. Deployment
+frequency is a more concrete and reliable measure. It is also a better indicator
+of a team's ability to deliver value consistently, to maintain a sustainable
+delivery pace, shipping small incremental changes frequently, and to respond
+quickly to changing requirements.
+
+Artifacts such as link:./changelogs.adoc[changelogs] and
+link:./release-notes.adoc[release notes] can also be used for qualitative
+analysis of the _value_ delivered to users over time. Ultimately, it is the
+value delivered that matters most, and delivery metrics should be interpreted
+in the context of other link:../principals/measurements.adoc[measurements] to
+provide a more holistic view of the _outcomes_ of the software delivery process
+(eg. the impact on users and the business) and not just the _output_ (how much
+work the delivery teams get done).
+
+Be careful too about measuring value only in terms of the features delivered
+for the users. The value delivered can be increased in two ways:
+
+* By increasing the quantity and quality of features.
+* By decreasing rhe effort involved in delivering those features.
+
+For example, investing in a proper design system for the UI has an up-front cost
+and does not deliver immediate value to the user. But it will mean that developers
+can thereafter respond more quickly to changing UI requirements. Likewise,
+investment in documentation and automation has up-front costs but long-term
+benefits for the business and its customers. Therefore, any qualitative
+assessment of the value delivered by a team should take into account not
+only the functional requirements delivered, but also non-functional requirements
+such as security and performance, and internal quality improvements such as
+refactoring and technical debt reduction.
+
+Finally, delivery metrics MUST be used to gather only team-level data, and MUST
+NOT be used to measure the performance of individuals. The team is the primary
+unit of delivery, not the individual.
