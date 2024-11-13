@@ -27,6 +27,9 @@ for the delivery of high quality, continuously evolving software services.
   — Besides code, other artifacts are produced from the software development
     process.
 
+* link:./hiring[*Hiring*]
+  — How to hire and onboard new team members.
+
 ''''
 
 * link:./references.adoc[*References*]
