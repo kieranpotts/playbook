@@ -40,16 +40,19 @@ by paying the vendor the full cost of developing the software, or the customer
 pays a license fee to the vendor to use the software, perhaps for only a limited
 time.
 
-If bespoke software is developed in-house, the customer and the vendor will be
-the same entity. But if the customer outsources development to a third-party
-organization, that third-party is the vendor.
+In ths playbook, the term *the business* is one of the most nebulous. It refers,
+in very general terms, to stakeholder who do not have roles directly within the
+delivery teams but who nonetheless have vested interests – for commercial,
+financial, regulatory, or other reasons – in the successful delivery of the
+software. For simplicity, we can assume that the delivery teams will always
+operate within the same organization as the business stakeholders.
 
-In ths playbook, the term *the business* is sometimes used to refer collectively
-to the customers and users of the software, as well as any other stakeholders
-who do not have roles directly within the delivery teams but who nonetheless
-have vested interests – for commercial, regulatory, or other reasons – in the
-successful delivery of the software.
+The relationships between these stakeholders roles varies depending on the
+context. For example, where bespoke enterprise application software is developed
+in-house, the customer and the vendor will be the same entity. For comparison,
+in the context of software-as-a-service (SaaS) products, the customers will be
+external to the software vendor.
 
 These distinctions are important because each group of stakeholders has different
-interests and concern, and these varying interests and concerns need to be
+interests and concerns, and these varying interests and concerns need to be
 considered when designing and planning the implementation of software solutions.
