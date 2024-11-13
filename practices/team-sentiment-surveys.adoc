@@ -18,23 +18,61 @@ deployment process takes, and how often the deployment pipeline fails.
 Qualitative data are measures of _qualities_. They are more subjective and can
 therefore be harder to measure. But qualitative data help to provide a more
 nuanced view. They tend to be better, for example, at identifying areas for
-improvement in ways of working and other _human_ aspects of software development.
+improvement in ways of working and other human aspects of software development.
 Examples of qualitative data include observations of team dynamics, and views on
 the quality of work produced by a team.
 
 link:./technical-health-checks.adoc[Technical health checks] gather quantitative
 data and specialize in measures of the quality of the software product. Team
-sentiment surveys gather qualitative data and specialize in measures of the
-effectiveness of the teams and of software delivery process.
+sentiment surveys gather qualitative data and specialize in measures of team
+effectiveness at delivering quality software efficiently.
 
 For example, a technical health check might ask "how long does it take to go from
-code committed to code running in production?", the team sentiment survey might
-ask "how satisfied are you with the deployment process?"
+code committed to code running in production?", while the team sentiment survey
+might instead ask "in your view, do you think the deployment process is
+appropriate for this type of software product?"
 
 Team sentiment surveys measure the "developer experience" – the feelings and
 observations of the team members working on the project. This is important
 because productivity is directly related to job satisfaction and team
 behaviors.
+
+****
+The practice of surveying software delivery teams on the "health" of their team
+and projects was {link-spotify-2014}[popularized by Spotify], though the
+practice is not new and has taken different forms over many decades.
+****
+
+Team sentiment surveys checks have numerous benefits, including:
+
+* They serve as an early-warning system for projects that are steadily going
+  off-course. Sentiment tends to decrease before other
+  link:../artifacts/delivery-metrics.adoc[delivery metrics] such as cycle
+  time start to appreciably deteriorate. Project managers can therefore
+  respond early, for example by diverting resources to the team under the most
+  strain.
+
+* They supplement more objective delivery metrics, such as production incidents
+  and time to recover, by providing context and insight into _why_ these
+  metrics are changing.
+
+* They also help delivery teams themselves to autonomously learn and improve.
+  The sentiment surveys compliment [retrospectives] as a method for reflecting
+  on what's working and what's not working.
+
+Team sentiment surveys are RECOMMENDED for organizations with two or more
+technical teams, but will be beneficial for smaller organizations too. The
+surveys SHOULD be implemented in a software service such as Google Sheets or
+Airtable, allowing for easy analysis and visualization of the results. Team
+sentiment surveys SHOULD be conducted at least once every three months, and the
+results MAY be augmented with feedback from one-to-ones and other less formal
+channels.
+
+For easier analysis, questions should be answerable with a simple "Yes", "No" or
+"I don't know"; alternatively a numerical score of 1 (low) to 5 (high). However,
+open-ended questions are also valuable, as they can provide more context and
+insight.
+
 
 
 .Related links
