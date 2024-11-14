@@ -1,0 +1,65 @@
+= Deep work
+
+:link-graham: https://www.paulgraham.com/makersschedule.html
+
+The software delivery process advocated in this playbook prioritizes deep work.
+The aim is to address one of the biggest productivity killers in current-day
+knowledge work: distractions.
+
+The term "deep work" was popularized by Cal Newport in his book "Deep Work:
+Rules for Focused Success in a Distracted World". Deep work is the kind of
+task that requires lots of brain power and lots of time. It is the opposite of
+shallow work, which is the kind of task that you can do without being 100%
+engaged.
+
+Deep work is related to the concept of "flow state" in psychology, which is the
+state of mind where you are so completely absorbed in a task that you lose track
+of time. More colloquially, this is known as being "in the zone".
+
+Most -- not all, but most -- tasks in software delivery are deep work tasks.
+Therefore, we ought to structure our work to maximize the amount of time we
+spend in deep work mode.
+
+== Benefits
+
+In the context of software delivery, deep work has many benefits, including:
+
+* Higher productivity; faster delivery of value.
+* Higher quality code (and other artifacts).
+* Fewer bugs (and other mistakes, which would have cost more time to fix later).
+* Better outcomes for users. You are more likely to produce a good solution if
+  you are totally absorbed in the problem. And the solution is more likely to be
+  "correct".
+* Improved skills. You learn the most when you are totally focused on complex
+  problems.
+
+The stereotype of the computer programmer who works alone in a basement wearing
+headphones has some truth to it. This sort of intense focus is a reflection of
+the type of work that we do, rather than the type of people who do it.
+
+It is for this reason that the other big benefit of deep work is a better
+*developer experience*. Developers are happier when they have the opportunity
+to work deeply. This is their natural way of working on coding problems.
+
+== Requirements
+
+Deep work is the natural way of working for software delivery
+for solo practitioners. But to achieve this in the context of the collaborative
+environments of commercial software delivery, we need to be more deliberate
+about how we structure our work.
+
+Flow state does not happen by accident. In professional contexts, allowing
+for deep work requires working conditions to be designed specifically to support
+it.
+
+Requirements for deep work include a quiet, clutter-free environment, and
+extensive periods of uninterripted time.
+
+
+''''
+
+.Related links
+****
+* {link-graham}[Maker's Schedule, Manager's Schedule],
+  Paul Graham (2009)
+****
