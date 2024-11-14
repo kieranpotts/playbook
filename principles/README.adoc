@@ -7,4 +7,5 @@ eg. "fix problems even when they are not yours".
 
 == Contents
 
+* link:./deep-work.adoc[*Deep work*]
 * link:./measurement.adoc[*Measurement*]
