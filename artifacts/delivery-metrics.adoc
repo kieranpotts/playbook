@@ -70,7 +70,7 @@ analysis of the _value_ delivered to users over time. Ultimately, it is the
 value delivered that matters most, and delivery metrics should be interpreted
 in the context of other link:../principals/measurements.adoc[measurements] to
 provide a more holistic view of the _outcomes_ of the software delivery process
-(eg. the impact on users and the business) and not just the _output_ (how much
+(eg. the impact on users and customers) and not just the _output_ (how much
 work the delivery teams get done).
 
 Be careful too about measuring value only in terms of the features delivered
@@ -83,11 +83,11 @@ For example, investing in a proper design system for the UI has an up-front cost
 and does not deliver immediate value to the user. But it will mean that developers
 can thereafter respond more quickly to changing UI requirements. Likewise,
 investment in documentation and automation has up-front costs but long-term
-benefits for the business and its customers. Therefore, any qualitative
-assessment of the value delivered by a team should take into account not
-only the functional requirements delivered, but also non-functional requirements
-such as security and performance, and internal quality improvements such as
-refactoring and technical debt reduction.
+benefits for the customers. Therefore, any qualitative assessment of the value
+delivered by a team should take into account not only the functional
+requirements delivered, but also non-functional requirements such as security
+and performance, and internal quality improvements such as refactoring and
+technical debt reduction.
 
 Finally, delivery metrics MUST be used to gather only team-level data, and MUST
 NOT be used to measure the performance of individuals. The team is the primary
