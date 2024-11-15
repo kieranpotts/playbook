@@ -80,6 +80,70 @@ open-ended questions are also valuable, as they can provide more context and
 insight.
 
 
+== Questions
+
+
+=== Mission
+
+* Do you have a clear idea of the project's objectives? Do you understand who
+  the software is for, and what problems it solves?
+
+* Do you understand the different groups of users, and how their needs differ?
+  Do you understand the needs of the business that owns the software?
+
+* Do you have a view and understanding of the product roadmap?
+
+=== Requirements
+
+* Are the software requirements specified appropriate artifacts such as user
+  stories and acceptance tests?
+
+* Are the requirements refined enough (though not necessarily complete) before
+  development starts?
+
+* Do the requirements change unnecessarily (ie. could the changes have been
+  foreseen)?
+
+* Are quality requirements (eg. performance, security) defined in measurable,
+  verifiable terms?
+
+=== Planning
+
+=== Design
+
+* Do you understand the design of the whole system?
+
+* Do you understand the architectural principals that underpin the overall
+  software design? Could you describe the architecture at a conceptual
+  level?
+
+* Is the architectural design appropriate for the business case, and with
+  consideration to the current stage of the product's lifespan?
+
+* Is the system designed around a model of the business domain? Can you
+  understand the business domain from the software's source code?
+
+* Do the subsystems you have worked on recently have clearly-defined scopes
+  and boundaries to their responsibilities, and no awkward overlaps?
+
+=== Construction
+
+* In general, in your view, is the product engineered to a level of quality
+  that is suitable given the product's business domain and the customers'
+  expectations?
+
+* Is the product built with appropriate languages and third party frameworks,
+  libraries and services?
+
+=== Quality assurance
+
+=== Operations
+
+=== Culture and values
+
+* Overall, do you enjoy the work you're doing right now?
+
+
 
 .Related links
 ****
