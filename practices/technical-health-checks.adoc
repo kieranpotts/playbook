@@ -11,13 +11,9 @@ product, and which can be tracked over time to identify trends.
 
 The questions in a technical health check should be objective and answerable
 with a simple "Yes", "No" or "I don't know"; alternatively a numerical score of
-1 (low) to 5 (high).
-
-[TIP]
-======
-Google's https://dora.dev/[DevOps Research and Assessment (DORA)] program is
-an excellent example of how to capture objective data from developer surveys.
-======
+1 (low) to 5 (high). Although the technical health checks survey people's
+_opinions_ on the quality of the software, the idea is to aggregate these
+opinions into hard numbers, changes in which can be tracked over time.
 
 Examples of objective survey questions include:
 
@@ -27,3 +23,37 @@ Examples of objective survey questions include:
 * How often does your organization deploy code to production, or release it to
   users?
 
+* How often do you roll back a release because of a problem?
+
+[TIP]
+======
+Google's https://dora.dev/[DevOps Research and Assessment (DORA)] program is
+an excellent example of how to capture objective data from developer surveys.
+======
+
+The questions chosen in technical health checks SHOULD be aligned with the
+delivery teams' [technical standards]. Measure the things you standardize on.
+Technical health checks are particularly handy for measuring and reinforcing
+technical standardization across multiple teams.
+
+As with team sentiment surveys, staff should be given plenty of time to think
+about and respond to technical health surveys. Ideally, answers will be
+anonymously, which will encourage more honest (and therefore more valuable)
+responses.
+
+== Analyzing response data
+
+In analyzing data from technical health check surveys, the data SHOULD be
+supplemented with link:../artifacts/delivery-metrics.adoc[delivery metrics],
+generated from other sources, such as build times, test coverage, cycle time,
+and lead time; and also link:../artifacts/system-metrics.adoc[system metrics]
+such as performance and uptime.
+
+Changing patterns in health check data and other metrics are indicators of
+potential changes in quality and productivity. To understand the _why_ behind
+changes in hard metrics like these, the quantitative data needs to be
+augmented with qualitative analysis. That is the role of the
+link:./team-sentiment-surveys.adoc[team sentiment surveys].
+
+Thus, team sentiment surveys are used to provide context for the technical
+health checks and other metrics.
