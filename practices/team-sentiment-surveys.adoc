@@ -12,24 +12,24 @@ link:../principles/measurement.adoc[measuring] how a software project is going.
 For a complete picture, a mix of quantitative and qualitative data needs to be
 gathered. Quantitative data are measures of _quantities_. They are objective and
 can be easily summed and analyzed. Examples of quantitative data include
-measures of how often changes are deployed to production, how long the
-deployment process takes, and how often the deployment pipeline fails.
+how often changes are deployed to production, how long the deployment process
+takes on average, and how often the deployment pipeline fails.
 
 Qualitative data are measures of _qualities_. They are more subjective and can
 therefore be harder to measure. But qualitative data help to provide a more
-nuanced view. They tend to be better, for example, at identifying areas for
-improvement in ways of working and other human aspects of software development.
-Examples of qualitative data include observations of team dynamics, and views on
-the quality of work produced by a team.
+nuanced view. They tend to be better at identifying areas for improvement in
+ways of working and other human aspects of software development. Examples of
+qualitative data include observations of team dynamics, and views on the quality
+of work produced by a team.
 
 link:./technical-health-checks.adoc[Technical health checks] gather quantitative
 data and specialize in measures of the quality of the software product. Team
 sentiment surveys gather qualitative data and specialize in measures of team
 effectiveness at delivering quality software efficiently.
 
-For example, a technical health check might ask "how long does it take to go from
-code committed to code running in production?", while the team sentiment survey
-might instead ask "in your view, do you think the deployment process is
+For example, a technical health check might ask "how long does it take to go
+from code committed to code running in production?", while the team sentiment
+survey might instead ask "in your view, do you think the deployment process is
 appropriate for this type of software product?"
 
 Team sentiment surveys measure the "developer experience" – the feelings and
@@ -43,7 +43,7 @@ and projects was {link-spotify-2014}[popularized by Spotify], though the
 practice is not new and has taken different forms over many decades.
 ****
 
-Team sentiment surveys checks have numerous benefits, including:
+Team sentiment surveys have numerous benefits, including:
 
 * They serve as an early-warning system for projects that are steadily going
   off-course. Sentiment tends to decrease before other
@@ -53,12 +53,13 @@ Team sentiment surveys checks have numerous benefits, including:
   strain.
 
 * They supplement more objective delivery metrics, such as production incidents
-  and time to recover, by providing context and insight into _why_ these
+  and time to recovery, by providing context and insight into _why_ these
   metrics are changing.
 
-* They also help delivery teams themselves to autonomously learn and improve.
-  The sentiment surveys compliment [retrospectives] as a method for reflecting
-  on what's working and what's not working.
+* They also help delivery teams themselves to be more autonomously, and to
+  learn and improve. In this regard, sentiment surveys offer an alternative
+  to retrospectives as a method for reflecting on what's working and what needs
+  improving.
 
 Team sentiment surveys are RECOMMENDED for organizations with two or more
 technical teams, but will be beneficial for smaller organizations too. The
@@ -67,6 +68,11 @@ Airtable, allowing for easy analysis and visualization of the results. Team
 sentiment surveys SHOULD be conducted at least once every three months, and the
 results MAY be augmented with feedback from one-to-ones and other less formal
 channels.
+
+Staff should be given plenty of time to think about and respond to sentiment
+surveys. And, ideally, answers will be anonymously. This will encourage more
+thoughtful and more honest (and therefore more valuable) responses. The same
+should be applied to [technical health checks], too.
 
 For easier analysis, questions should be answerable with a simple "Yes", "No" or
 "I don't know"; alternatively a numerical score of 1 (low) to 5 (high). However,
