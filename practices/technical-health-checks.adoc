@@ -10,7 +10,8 @@ should cover a variety of metrics that help to gauge the quality of the software
 product, and which can be tracked over time to identify trends.
 
 The questions in a technical health check should be objective and answerable
-with a simple "yes" or "no", or a numerical score of 1 (low) to 5 (high).
+with a simple "Yes", "No" or "I don't know"; alternatively a numerical score of
+1 (low) to 5 (high).
 
 [TIP]
 ======
