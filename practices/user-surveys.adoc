@@ -6,12 +6,14 @@ User surveys have two purposes:
   delivered for users.
 
 * To identify the remaining pain points for users, and identify areas where
-  the user experience or value delivered can be improved.
+  the user experience or the value derived from the product can be improved.
 
 == Questions to measure value delivered
 
 * Are you happy with what's been delivered?
+
 * Do you believe the product delivers real value for you?
+
 * Does the solution have a unique value proposition, something that sets it
   apart from competitors?
 
