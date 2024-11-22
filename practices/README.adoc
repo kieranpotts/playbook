@@ -10,8 +10,7 @@ Practices are things that we do regularly in the course of our work.
 * link:./prioritization.adoc[*Prioritization*]
 * link:./pull-requests.adoc[*Pull requests*]
 * link:./retrospectives.adoc[*Retrospectives*]
-* link:./team-sentiment-surveys.adoc[*Team sentiment surveys*]
-* link:./technical-health-checks.adoc[*Technical health checks*]
+* link:./team-surveys.adoc[*Team surveys*]
 * link:./user-surveys.adoc[*User surveys*]
 * link:./workshops.adoc[*Workshops*]
 

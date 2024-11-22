@@ -7,19 +7,16 @@ The answer is to measure it.
 This playbook RECOMMENDS that data be gathered from a variety of sources,
 including:
 
-* link:../practices/team-sentiment-surveys.adoc[Team sentiment surveys]
-* link:../practices/technical-health-checks.adoc[Technical health checks]
-* link:../artifacts/delivery-metrics.adoc[Delivery metrics]
 * link:../artifacts/system-metrics.adoc[System metrics]
+* link:../artifacts/delivery-metrics.adoc[Delivery metrics]
+* link:../practices/team-surveys.adoc[Team surveys]
 * link:../practices/user-surveys.adoc[User surveys]
 
-These each provide a different perspective on the software project. For example,
-technical health checks and system metrics provide insight into the quality of
-the software product, while delivery metrics and team sentiment surveys provide
-insight into the effectiveness of the software delivery process. User surveys
-provide insight into the value delivered to users, from the perspective of the
-users themselves.
+These each provide a different perspective on a software project. For example,
+system metrics and user surveys provide insight into the quality of the software
+product, while delivery metrics and team surveys provide more insight into the
+effectiveness of the software delivery process.
 
 Together, these metrics provide a comprehensive view of the direction of the
-software project – whether it is on a path to success, or otherwise – and help
-to identify areas where things could be improved.
+software project – if it is on a path to success, or otherwise – and help to
+identify areas where things could be improved.

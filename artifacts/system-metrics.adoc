@@ -5,8 +5,9 @@ production systems. They are typically generated automatically by monitoring
 tools and provide an objective view of the software system's performance and
 reliability.
 
-When analyzed in combination with other link:../principals/measurements.adoc[measurements]
-such as link:../practices/technical-health-checks.adoc[technical health checks],
+When analyzed in combination with other methods of
+link:../principals/measurements.adoc[measurement]
+such as link:../practices/user-surveys.adoc[user surveys],
 system metrics can provide valuable insights into the evolving quality of
 a software product.
 
@@ -17,3 +18,6 @@ However, which system metrics are most useful will depend on the nature of the
 software product. Some common system metrics include uptime, response time,
 error rates, and resource usage. This is a technical concern and is outside of
 the scope of this playbook.
+
+// TODO: Despite being out-of-scope, provide some examples of essential system
+// metrics.

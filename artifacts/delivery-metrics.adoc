@@ -1,44 +1,9 @@
 = Delivery metrics
 
 Delivery metrics are measures of the quantity and quality of the work produced
-by a software development team. They are usually objective metrics that can be
-generated automatically by tools.
-
-[IMPORTANT]
-======
-Delivery metrics MUST be used to measure the work produced by a _team_, not by
-_individuals_. [The team is the primary unit of delivery.]
-======
 by a software development team. Like link:./system-metrics.adoc[system metrics],
 they are objective data that can be generated automatically by tools.
 
-When analyzed in combination with other link:../principals/measurements.adoc[measurements]
-such as link:../practices/team-sentiment-surveys.adoc[team sentiment surveys],
-delivery metrics can provide valuable insights into both the throughput and
-quality of the software development process, and help to identify areas where
-efficiency can be improved.
-
-The choice of which delivery metrics to track is an important decision. Some
-delivery metrics can be misleading or counterproductive if not interpreted wisely.
-The following delivery metrics are RECOMMENDED for tracking, as they are widely
-accepted as good indicators of software delivery effectiveness:
-
-* *Lead time* and *cycle time*: Lead time is the total time between a change
-  being requested or a bug or incident reported, and a solution or fix being
-  released successfully to production. Lead time encompasses the whole
-  development life cycle of a software change. Meanwhile, cycle time measures
-  only the speed of the development, testing and deployment phases. Cycle time
-  does not include the time a change takes to triage, design, plan, and approve,
-  and it does not include any time the change subsequently spends waiting in a
-  queue for available development and testing resource. (An alternative metric
-  is pull request cycle time, which is a subset of cycle time that can be easier
-  to measure but captures only the duration of time that a PR is open.)
-
-* *Deployment frequency*: How often deployments are made to production, without
-  causing incidents or requiring rollbacks.
-
-* *Defect escape rate*: The percentage of bugs and other defects found in
-  production that were not caught by the pre-production quality assurance checks.
 Delivery metrics can provide valuable insights into both the throughput and
 quality delivered by the software development process. They also help to identify
 areas where processes could be improved, for example to make the workflow more
@@ -88,6 +53,8 @@ are deployed to production, without causing incidents or rollbacks.
 Deployments are not the same thing as releases. Deployment may be
 [continuous] but releases made on a much slower [release train].
 ======
+by a software development team. Like link:./system-metrics.adoc[system metrics],
+they are objective data that can be generated automatically by tools.
 
 === Defect escape rate
 
@@ -129,77 +96,101 @@ understand the overall efficiency and responsiveness of the development
 workflow, while cycle time provides a clearer picture of a team's
 productivity once work starts.
 
-There may be other delivery metrics that you find useful to track, depending on
-the nature of your software product and the specific challenges you face. But it
-is RECOMMENDED to keep the number of delivery metrics to a minimum, focusing on
-a small set of carefully selected metrics that provide the most valuable insights.
+There may be other delivery metrics that you may find useful to track. The
+metrics that will yield the most useful insights will vary by domain and
+product, and also by time – depending on the life cycle stage of the product
+and the maturity of its delivery team.
 
-It is RECOMMENDED to choose concrete, objective metrics that can be easily
-measured and that are not subject to bias or manipulation. A common practice in
-software development is to use [story points] to estimate the scope of work
-involved in each task, and then use the number of points completed within
-recurring timeboxed periods (widely called "sprints") as a measure of development
-velocity. However, this practice is NOT RECOMMENDED, as story points are
-too abstract to be a reliable measure of delivery throughput. Deployment
-frequency is a more concrete and reliable measure. It is also a better indicator
-of a team's ability to deliver value consistently, to maintain a sustainable
-delivery pace, shipping small incremental changes frequently, and to respond
-quickly to changing requirements.
+Some other delivery metrics that you may consider tracking are:
 
-Artifacts such as link:./changelogs.adoc[changelogs] and
-link:./release-notes.adoc[release notes] can also be used for qualitative
-analysis of the _value_ delivered to users over time. Ultimately, it is the
-value delivered that matters most, and delivery metrics should be interpreted
-in the context of other link:../principals/measurements.adoc[measurements] to
-provide a more holistic view of the _outcomes_ of the software delivery process
-(eg. the impact on users and customers) and not just the _output_ (how much
-work the delivery teams get done).
-measured and that are not subject to bias or manipulation. However, what we
-really care about are the _outcomes_ delivered, or the _value_ the software
-gives its users. Delivery metrics such as cycle time may be a proxy for these
-outcomes (eg. cycle time is really a measure of _output_, not _outcomes), but
-they are not measure of the outcomes themselves. So, delivery
-metrics need to be interpreted in the context of other, more qualitative,
-measures, to provide a more holistic view of the overall impact on users and
-the business. Artifacts such as link:./changelogs.adoc[changelogs] and
-link:./release-notes.adoc[release notes] can be used for qualitative
-analysis of the _value_ delivered to users over time.
+* *Code churn*: The rate at which code is added, removed, or changed.
 
-Be careful too about measuring value only in terms of the features delivered
-for the users. The value delivered can be increased in two ways:
+* *Pull request cycle time*: This is a subset of cycle time, but it can be
+  easier to measure. It is the average time that PRs stay open, and is therefore
+  a measure of how long it takes for code to get reviewed and approved for
+  integration (or rejected and discarded).
 
-* By increasing the quantity and quality of features.
-* By decreasing rhe effort involved in delivering those features.
+* *Code review coverage*: The percentage of code that is reviewed before being
+  merged. This can be measured by calculating the percentage of lines of code
+  that are merged into the mainline via PRs, relative to the total lines of
+  code including those that get directly committed to the main branch.
 
-For example, investing in a proper design system for the UI has an up-front cost
-and does not deliver immediate value to the user. But it will mean that developers
-can thereafter respond more quickly to changing UI requirements. Likewise,
-investment in documentation and automation has up-front costs but long-term
-benefits for the customers. Therefore, any qualitative assessment of the value
-delivered by a team should take into account not only the functional
-requirements delivered, but also non-functional requirements such as security
-and performance, and internal quality improvements such as refactoring and
-technical debt reduction.
+* *Deployment lead time*. The average time between a change being committed to
+  the main branch and being deployed (but not necessarily released) to
+  production.
+
+* *Deployment time*: The time taken for a production deployment to complete,
+  from the moment the deployment is initiated to the changes being "live" in
+  production.
+
+* *Deployment success rate*: The percentage of deployments that are successful
+  (ie. do not cause incidents or require rollbacks).
+
+* *Rollback rate*: How often a deployment needs to be rolled back or fixed
+  forward.
+
+* *Build times*: The time taken to build the software from source code, plus the
+  time it takes to validate the correctness of the built artifacts by running
+  automated test suites against them. This is something to keep an eye on.
+  Build times tend to increase over time, as a codebase grows, and this can
+  start to create a drag on throughput by slowing down the feedback loop.
+
+* *Pipeline failures*: How often the delivery pipeline fails.
+
+The choice of delivery metrics is an important one. The most important criteria
+for delivery metrics is that they be objective and easily measurable. Ideally,
+the data can be collected and analyzed in a fully automated way.
+
+The metrics should also be relevant to the goals of the software delivery
+process, and they should provide genuinely useful insights into the delivery
+process that can't be easily determined by other means. Delivery metrics should
+also be _actionable_. The purpose of collecting delivery metrics is to refine
+processes when delivery starts to miss expectations. [Continuous improvement]
+is necessary. The delivery process must continuously adapt to the ever-changing
+state of the software product itself, and of the business environment and other
+external factors.
+
+Delivery metrics SHOULD be interpreted in the context of other data, particularly
+more qualitative data such as the results of link:../practices/team-surveys.adoc[team
+surveys].
 
 == Bad delivery metrics
 
-A common practice in software development is to use [story points] to estimate
-the scope of work involved in each task, and then use the number of points
-completed within recurring timeboxed periods (widely called "sprints") as a
-measure of development velocity. Other, similarly bad, measures of development
-velocity include bug fixes and lines of code.
+Some delivery metrics can be misleading, and others can be counterproductive
+if not used and interpreted wisely.
 
-There are numerous problems with these delivery metrics. While they can be
-quite objective (except for story points, which are entirely abstract), they can
-encourage developers to game the system, for example
-by inflating their estimates or writing more code than is necessary. They can
-also lead to a focus on the wrong things, like the number of features delivered
-rather than the value delivered by those features. They also create disincentives
-to maintain quality, which is essential to sustaining development velocity over
-the long term, or to invest in automation and other improvements that pay off
-in the long run.
+A common practice in modern software development is to use a concept called
+"story points" to estimate the scope of work involve in a take, and then use
+the number of points completed within recurring timeboxed periods ("sprints")
+as a measure of development "velocity".
 
-Deployment frequency is a more concrete and reliable measure. It is also a
-better indicator of a team's ability to deliver value consistently, to maintain
-a sustainable delivery pace, shipping small incremental changes frequently, and
-to respond quickly to changing requirements.
+.What are story points?
+****
+// TODO: "Invented" by Ron Jeffries.
+****
+
+There are numerous problems with this kind of delivery metric. For one thing,
+story points are entirely artificial. They are not based on any objective
+measure of the work done. Indeed, story points are highly susceptible to bias
+and – worse still – manipulation and gaming.
+
+// TODO: Lines of code (LoC) is another bad metric.
+
+Choose concrete, reliable measures of delivery. Deployment frequency, for
+example, is a much more reliable measure of a team's ability to deliver value
+consistently, to maintain a sustainable delivery pace, shipping small
+incremental changes frequently, and to respond quickly to changing requirements.
+
+Besides choosing valuable delivery metrics, we must also interpret those metrics
+appropriately. In particular, delivery metrics MUST NOT be used to measure the
+work of individual team members. [The team is the primary unit of delivery], and
+therefore delivery metrics ought to be understood as measure of a team's
+delivery.
+
+Likewise, we SHOULD NOT interpret delivery metrics as measures of value delivered
+to users by the software. Delivery metrics such as deployment frequency and cycle
+time can be seen as a proxy for outcomes, but delivery metrics are really measures
+of _output_ rather than _outcomes_. They are conceptually very different things.
+[System metrics], [user surveys], [team surveys], and also artifacts such as
+[changelogs] and [release notes] a better data sources for evaluation of the
+value delivered to users over time.
