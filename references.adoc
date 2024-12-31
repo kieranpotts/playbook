@@ -21,3 +21,5 @@ this engineering playbook.
 
 * https://insight.kellogg.northwestern.edu/building-leading-great-teams-research[What science can tell us about building great teams],
   Kellogg Insight
+
+* https://softwareengineeringproductivity.stanford.edu/[Software Engineering Productivity study at Stanford University]
