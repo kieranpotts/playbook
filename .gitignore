@@ -10,9 +10,6 @@
 # software stacks here: https://github.com/github/gitignore
 # ==============================================================================
 
-# Temporary files.
-__*
-
 # Build artifacts...
 dist/*
 
