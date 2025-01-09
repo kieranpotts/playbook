@@ -23,3 +23,9 @@ this engineering playbook.
   Kellogg Insight
 
 * https://softwareengineeringproductivity.stanford.edu/[Software Engineering Productivity study at Stanford University]
+
+== Failed software projects
+
+* https://publications.parliament.uk/pa/cm201012/cmselect/cmpubacc/1397/1397.pdf[The failure of the FiReControl project], House of Commons Committee of Public Accounts, 2011
+
+* http://sunnyday.mit.edu/papers/jsr.pdf[The role of software in spacecraft accidents], Nancy G Leveson, 2004
