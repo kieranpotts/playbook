@@ -1,0 +1,39 @@
+= Low stress
+
+Software development is not conducive to stress. It is a creative process that requires focus and concentration. Stressful working conditions lead to mistakes, poor design decisions, and accumulation of technical debt.
+
+It is therefore critical, for software to be developed successfully, to maintain a low-stress working environment so that technical teams can perform at their best.
+
+This means that the software delivery process must be specifically designed to eliminate sources of stress, which include but are not limited to:
+
+* Unrealistic deadlines.
+
+* Inadequate resources.
+
+* Toxic working conditions.
+
+* Low levels of trust, manifesting as micromanagement and minimal autonomy.
+
+* Lack of clarity of expectations (this is not the same thing as lack of clarity in requirements).
+
+== Deadlines
+
+Setting deadlines for delivery if pre-specified features is a common practice in software development. However, even with *[stable requirements]* and *[accurate estimations]* – both of which are very much doable, and solutions to achieving these are provided by this delivery playbook – there are many reasons why _development time_ may not translate directly into _calendar time_.
+
+Reasons why software delivery can take longer than expected, even if the original estimations prove to be accurate, include:
+
+* Scope creep.
+
+* Changes in direction, eg. in response to a competitor's innovation, changes in the market, or demands of customers.
+
+* Incidents, outages, and other activities that pull delivery teams away from their planned work.
+
+* Offboarding of critical team members. Drag on delivery due to the loss of project knowledge and the time it takes to onboard new team members.
+
+Deadlines are also dangerous. Unless _scope_ is allowed to be flexible, _quality_ will be the variable that is sacrificed in order to meet a deadline. This is not a good trade-off, as it leads to technical debt, which in turn increases the cost of future development. You end up in a doom loop of worsening developer productivity, leading to more missed deadlines, leading to more technical debt, leading to even worse developer productivity, and so on.
+
+// TODO: This playbook proposes the use of "milestones" rather than "deadlines".
+// Milestones are a way to measure progress, but they are not fixed in one of:
+// time or scope.
+
+This approach can be particularly challenging in sales-led software development practices. ... There is nothing that can be done about feature factories and IT sweatshops, other than to avoid them. Professional software houses, which deliver genuine value to their customers, so not operate in this way.
