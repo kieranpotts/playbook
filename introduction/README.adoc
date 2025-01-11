@@ -15,6 +15,9 @@
 * link:./objectives.adoc[*Objectives*]
   — The goals that this playbook aims to achieve.
 
+* link:./limitations.adoc[*Limitations*]
+  — The boundaries of what this playbook covers.
+
 * link:./inspiration.adoc[*Inspiration*]
   — The sources of inspiration for this playbook.
 
