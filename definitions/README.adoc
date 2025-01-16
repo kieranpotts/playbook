@@ -1,0 +1,6 @@
+= Definitions
+
+It is important for all stakeholders in an IT project to share a common language. This section defines "jargon" terms that are used throughout the playbook.
+
+== Contents
+

@@ -17,6 +17,9 @@ for the delivery of high quality, continuously evolving software services.
 * link:./introduction[*Introduction*]
   — The purpose and scope of this engineering playbook.
 
+* link:./definitions[*Definitions*]
+  — Definitions of jargon terms used throughout the playbook.
+
 * link:./principles[*Principles*]
   — Ideas that underpin the ways of working advocated in this playbook.
 
