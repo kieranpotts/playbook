@@ -15,6 +15,6 @@ supplementary materials "artifacts".
 * link:./product-roadmap.adoc[Product roadmap]
 * link:./release-notes.adoc[Release notes]
 * link:./system-metrics.adoc[System metrics]
-* link:./system-requirements-specification.adoc[System Requirements Specification (SRS)]
+* link:./requirements-specifications.adoc[System requirements specifications]
 * link:./technical-documentation.adoc[Technical documentation]
 * link:./technical-standards.adoc[Technical standards]
