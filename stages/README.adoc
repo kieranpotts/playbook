@@ -1,0 +1,6 @@
+= Stages
+
+== Contents
+
+1.  link:./inception.adoc[*Inception*]
+2.  link:./discovery.adoc[*Discovery*]
