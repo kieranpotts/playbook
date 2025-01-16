@@ -10,3 +10,4 @@ eg. "fix problems even when they are not yours".
 * link:./deep-work.adoc[*Deep work*]
 * link:./low-stress.adoc[*Low stress*]
 * link:./measurement.adoc[*Measurement*]
+* link:./small-teams.adoc[*Small teams*]
