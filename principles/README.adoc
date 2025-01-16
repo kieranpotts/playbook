@@ -12,4 +12,5 @@ eg. "fix problems even when they are not yours".
 * link:./lightweight-processes.adoc[*Lightweight processes*]
 * link:./low-stress.adoc[*Low stress*]
 * link:./measurement.adoc[*Measurement*]
+* link:./problem-solving.adoc[*Problem solving*]
 * link:./small-teams.adoc[*Small teams*]
