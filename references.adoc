@@ -13,6 +13,8 @@ this engineering playbook.
 
 * https://handbook.gitlab.com/[GitLab Handbook]
 
+* https://posthog.com/handbook[PostHog Company Handbook]
+
 * https://github.com/Microsoft/vscode/wiki/Development-Process[VS Code Development Process]
 
 == Research
@@ -24,7 +26,7 @@ this engineering playbook.
 
 * https://softwareengineeringproductivity.stanford.edu/[Software Engineering Productivity study at Stanford University]
 
-== Failed software projects
+== Failed software project post-mortems
 
 * https://publications.parliament.uk/pa/cm201012/cmselect/cmpubacc/1397/1397.pdf[The failure of the FiReControl project], House of Commons Committee of Public Accounts, 2011
 
