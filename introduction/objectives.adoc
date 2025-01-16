@@ -37,5 +37,5 @@ A good playbook enables:
   It encourages uniform practices across teams and projects.
 
 * *Scalability* +
-  It enables teams to grow and work asynchronously, by  codifying knowledge
+  It enables teams to grow and work asynchronously, by codifying knowledge
   and processes.
