@@ -9,6 +9,7 @@ eg. "fix problems even when they are not yours".
 
 * link:./agility.adoc[*Agility*]
 * link:./deep-work.adoc[*Deep work*]
+* link:./lightweight-processes.adoc[*Lightweight processes*]
 * link:./low-stress.adoc[*Low stress*]
 * link:./measurement.adoc[*Measurement*]
 * link:./small-teams.adoc[*Small teams*]
