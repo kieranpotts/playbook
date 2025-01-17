@@ -1,16 +1,17 @@
 = Inspiration
 
-Nothing in this playbook is new. The principles, practices, processes, tools,
-and artifacts mentioned in this playbook are all well-established in our
-industry. Most of them have been around for decades, some since the very
-beginning of digital computers.
+Besides the principles of the agile manifesto and the practices of Extreme Programming, this software development playbook has been influenced by numerous other sources, many of which are referenced in footnotes throughout this playbook.
 
-The link:../references.adoc[references] section lists the resources that have
-been the most influential in shaping the methods and tools documented in this
-playbook.
+There is nothing, really, in this playbook that is new. The principles, practices, processes, tools, and artifacts presented in this playbook are all well-established in the IT sector. Most of them have been around for decades – some since the very beginning of digital computers.
 
-But the particular combination of methods and tools in this playbook is formed
-from our own experiences and experimentation. Inevitably, this playbook is
-opinionated. It reflects our own professional values and principles, and our
-own beliefs about how best to go about the business of making commercial
-software.
+What is new is the particular synthesis of methods and tools that this playbook presents. It is the _combination_ of methods and tools that is important. They all complement and reinforce each other, and in combination they have been proven to be consistently reliable at delivering successful software projects, including many large scale ones.
+
+The recommended practices of this playbook are based on empirical evidence of what works in practice. Research papers, case studies, reports and surveys are referenced from footnotes to backup the claims made in this playbook.
+
+Everything in this playbook represents industry best practice, and the processes and practices here are highly regarded by many top professionals in the field of software development. 
+
+Yet, not everything here is necessarily _popular_. For example, pair programming has regrettably fallen out of fashion, despite evidence from decades of case studies showing it to be highly effective at delivering high quality software quickly and at low cost. Some of the old ways of doing things, like pair programming, should be revisited.
+
+It is worth mentioning that this playbook is guided not only by industry _good_ practice but also by industry _bad_ practice – which is unfortunately widespread. Software projects are notoriously prone to failure: cost overruns, quality issues, and failure to deliver on the promised benefits. Public sector software projects seem to have particularly high failure rates, but that may be because they are funded by taxpayers and are therefore ultimately accountable to the public. We also get to know about large-scale software project failures at publicly-traded companies, because such capital investments get reported to shareholders. For every publicly-visible software project failure there are countless others that are kept confidential.
+
+The reasons for software project failures have been extensively studied. The root causes are well understood. The principles that underpin this playbook specifically address these issues.
