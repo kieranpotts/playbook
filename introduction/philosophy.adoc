@@ -1,28 +1,9 @@
 = Philosophy
 
-This software development playbook is rooted in the values and principles of
-the link:https://agilemanifesto.org/[agile manifesto] and the practices of
-link:http://www.extremeprogramming.org/[Extreme Programming (XP)].
+This software development playbook is rooted in the values and principles of the https://agilemanifesto.org/[agile manifesto] and the practices of http://www.extremeprogramming.org/[Extreme Programming (XP)]. The _original_ agile principles, fused into the practices of the _original_ agile framework, XP, provide the best foundation for building enterprise application software-as-a-service, particularly at scale.
 
-The authors of this playbook believe strongly that the _original_ agile
-principles, and the practices of the _original_ agile framework, XP, provide the
-best, most solid foundation for building enterprise application
-software-as-a-service – particularly at scale.
+Unfortunately, a lot of process dogma has emerged in the years since the 2001 agile manifesto. Project management frameworks such as https://www.scrum.org/learning-series/what-is-scrum/[Scrum] and https://kanbanguides.org/[Kanban] have hijacked the "agile" brand, so the colloquial meaning of the term has changed from the intent of the manifesto authors. This has resulted in a lot of confusion in our industry about what it means to be "agile" in software development.
 
-////
-TODO: Briefly summarize the agile values and principles here.
-////
+For this reason, this playbook does not use the word "agile" at all.
 
-Unfortunately, a lot of process dogma has emerged in the two decades since the
-2001 agile manifesto. Project management frameworks such as
-link:https://www.scrum.org/learning-series/what-is-scrum/[Scrum] and
-link:https://kanbanguides.org/[Kanban] have hijacked the "agile" brand, so the
-colloquial meaning of the term has changed from the intent of the manifesto
-authors. For this reason, the authors of this playbook have avoided using the
-term "agile" altogether. We instead write about specific principles like
-iterative design and incremental build, and specific practices like test-driven
-development and continuous integration.
-
-// TODO: Support modern remote-first and hybrid working practices.
-// TODO: Using technology to overcome geographical constraints, but
-// nevertheless the process is highly collaborative.
+Instead, this playbook documents specific *principles* such as iterative design and incremental build, and specific *practices* such as test-driven development and continuous integration. These things happen to be necessary for allowing _agility_ in the software development process. But they are also just good practices in their own right.
