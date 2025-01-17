@@ -1,27 +1,32 @@
 = Definition
 
-A software development playbook is a system for organizing people and resources
-in software development projects.
+How do you make software?
 
-It is a collection of methods and tools that are designed to work together to
-create an optimal software development process for the needs of the organization
-that owns the software (the vendor).
+A *software development playbook* answers this question.
 
-A software development playbook – invariably called a software development
-process, framework, methodology, guidebook, or handbook – focuses on the human
-and organizational side of software development, rather than the technical side.
+A software development playbook is a system for organizing people and resources in software development projects. It is a collection of methods and tools that are designed to work together to to increase the chances of a software project delivering on the goals of the customer (the organization for whom the software is made).
 
-This is important, because to produce software that adds real value to the
-people and organizations who use it, you need a lot more than just technical
-skills. The development of commercial software is as much of a social,
-human-centric process as it is a technical discipline. After all, the delivery
-of good quality and useful software depends on groups of people – with diverse
-knowledge and expertise, not only technical skills – coming together and
-collaborating on solving problems for other people.
+The methods and tools described in this playbook, when used in combination, have proven to be consistently effective at delivery high quality software on time and on budget.
 
-It just so happens that the solutions to those problems are implemented in
-computer systems. But the solutions themselves are designed – and perhaps even
-the original problems themselves are discovered - through human collaboration.
+[quote]
+____
+A software development playbook is a system for organizing people and resources in software development projects.
+____
 
-A software system is, ultimately, only a computer model of a particular solution
-to a real world problem.
+A software development playbook – invariably called a software development process, framework, methodology, guidebook, or handbook – is a reference guide for organizations that need to plan, design, develop, maintain, operate, and support software systems. But it is focused on the human and organizational side of software development, rather than the technical side.
+
+This is important, because to produce software that adds real value to the people and organizations who use it, you need a lot more than just technical skills. The development of software is as much of a social, human-centric process as it is a technical discipline. That's because the delivery of good, useful software depends on groups of people, with diverse knowledge and expertise, working together to solve problems. It just so happens that the solutions to those problems are implemented in computer systems, but the solutions themselves are designed – and perhaps even the original problems are discovered - through human collaboration.
+
+A software system is, ultimately, only a computer model of a particular solution that's been found to a real world problem. Thus, software development is primarily a *problem solving* activity. Coding and testing are secondary.
+
+A software development playbook is all about how you manage that core activity. It encompasses all of these things:
+
+* An *organization system*. A playbook defines the roles and responsibilities of the people involved in the software development process. It suggests how those people should be organized into teams – each team working on a different part of the overall solution – and how those teams should collaborate to deliver a cohesive software product.
+
+* A *project management system*. A playbook sets out procedures for planning, costing, initializing, and managing software projects. It describes how to track progress, how to manage risks, and how to ensure that a project stays on track to deliver the software that the customer needs.
+
+* A *requirements management system*. A playbook describes how to gather, analyze, and document the requirements of a software system. It sets standards for the specification of software requirements. Importantly, it explains how changing priorities must be handled.
+
+* A *change management system*. A playbook prescribes how to track progress in the implementation of new requirements, and the eventual deployment of those changes to production systems.
+
+* An *development operations system*. A playbook explains how development teams should function day-to-day. It sets out the methods and tools that teams should use to shepherd changes in code and configuration from development via testing to production – ie. through the full software development life cycle.
