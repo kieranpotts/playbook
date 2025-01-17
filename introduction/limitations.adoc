@@ -1,9 +1,0 @@
-= Limitations
-
-This playbook is not a comprehensive guide to everything you need to know about,
-and need to do, in order to make a success of software projects.
-
-// TODO: Explain that technical aspects are our of scope, but are ultimately
-// crucial to the success of a software project. The playbook is focused on the
-// human and organizational aspects of software development, rather than the
-// technical aspects.
