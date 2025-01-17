@@ -1,78 +1,19 @@
 = Scope
 
-Software development is a complex and multifaceted field. Many things are
-needed to make a success of a software project: excellent technical
-capabilities, obviously, but also a deep understanding of the real-world
-problems the software is intended to solve, and of the people and organizations
-who will use the software. And, for software to be _commercially_ successful,
-you need a viable business model, strong financials, favorable market
-conditions, and much more besides.
+A software development playbook is a system for organizing people and resources in software development projects. It covers organizational structure, project management, requirements management, change management, and development operations. All of these things are essential if you want to develop high quality software on time and on budget.
 
-You also need a suitable software development process. And that's what a
-software development playbook is all about. Playbooks are templates for the
-organizational _process_ of designing, planning, developing, maintaining, and
-operating software products.
+But these things are not enough.
 
-This software development playbook is:
+Software development is a complex and multifaceted field. Many things are needed to make a success of a software project. Besides a playbook to run software projects, you obviously need motivated individuals with appropriate technical capabilities, and you also need a deep understanding of the real-world problems the software is intended to solve, and of the people and organizations who will use the software.
 
-* An *organization system*. The playbook defines the roles and responsibilities
-  of the people involved in the software development process. It suggests how
-  those people should be organized into teams – each team working on a different
-  part of the overall solution – and how those teams should collaborate to
-  deliver a cohesive software product.
+And, for software to be _commercially_ successful, you need a viable business model, strong financials, favorable market conditions, and much more besides. This playbook is not going to help you with these things. Evaluation of the commercial viability of a software product, and of the business strategy for bringing it to market, are outside the scope of this playbook.
 
-* An *operational guide*. The playbook explains how individual teams should
-  function day-to-day. It sets out the methods and tools that the teams should
-  use to manage their work, and the artifacts that they should produce, besides
-  the code and configuration for the software itself.
+Some software development playbooks also cover *technical standards* and topics related to *software design* and architecture. However, these topics are out of scope of this particular playbook, which is focused on the human and organizational aspects of software development, rather than the technical aspects. But be in no doubt that technical capability – in both software and hardware (the infrastructure on which the software runs) – is a critical factor in the success of any software project.
 
-* A *change management system*. The playbook prescribes how to manage changing
-  priorities, and how to track requirements and constraints from idea to
-  implementation. It also sets standards for the specification of software
-  requirements – both functional and quality requirements.
+Automation of the software development process _is_ in the scope of this playbook, however. This is a topic that is closely related to development operations, and it is a key enabler of the rapid iterative development of software that has proven to be so effective in delivering successful outcomes in software projects.
 
-* A *development life cycle workflow*: The playbook documents the steps that the
-  technical people follow to shepherd changes in software code and configuration
-  from development via testing to production. It also defines the tools that are
-  used to automated recurring tasks within the development life cycle of each
-  discrete change.
+This playbook has a whole section on *hiring*, because the composition of development teams is another one of those critical factors. The focus of this section is on the process of mapping the hard skills and soft skills of individual people to the open roles and responsibilities required to delivery a particular set of software requirements. There is some discussion on best practices for screening and interviewing candidates, for evaluating their skills, and for onboarding new hires. But wider *human resources* management is outside the scope of this playbook. Topics such as training, appraisals, compensation, and retention are not covered here.
 
-Some software development playbooks also cover *technical standards* and topics
-related to *software design* and architecture. However, these topics are out of
-scope of this particular playbook, which is focused on the human and
-organizational aspects of software development, rather than the technical
-aspects.
+Finally, the quality of the work environment, the capabilities of senior management, the culture of the organization, and the well-being of the people who work there – all of these things are also hugely important to the success of software projects. But these are not specific to software projects. They apply to all projects, all kinds of collaborative work. A brilliant plan to tackle a software project is not going to resolve deep organizational issues or shield people from the effects of toxic work environments. Well-run projects in such contexts are still very likely to fail.
 
-As a general-purpose playbook, which could be applied to the development of
-software products for many different commercial sectors and problem spaces, it
-does not cover topics such as *domain knowledge* or organization
-*vision and mission*. These things are context specific, but are nonetheless
-factors that influence the outcomes of software projects.
-
-Other topics that are outside of the scope of this playbook include employee
-recruitment, training, appraisals, compensation, retention, and other "human
-resources" matters. The quality of the work environment, the culture of the
-organization, and the well-being of the people who work there, are all hugely
-important to the success of a software project. But these are not topics that
-are specific to software development. These factors are important in any
-organization, regardless of the nature of the work that it does.
-
-There can be no one-size-fit-all playbook for running software projects. There
-are many ways to approach software development, and the optimum approach will
-depend on the context. For example, the methods and tools used to develop
-embedded software for a medical device ought to be very different to the methods
-and tools used to develop a mobile app for a consumer market sector. That's
-because those are two very different types of software product, with very
-different sets of requirements and constraints, and serving very different
-commercial sectors and user groups.
-
-This playbook is tailored for the delivery of software-as-a-service (SaaS)
-enterprise application software (EAS). It is a collection of methods and tools
-that, together, optimize the software development process for the delivery of
-high quality business software services and applications, which are distributed
-via the World Wide Web.
-
-Of course, this playbook could be used as the basis for making other types of
-software product. But this playbook is designed primarily for the design,
-planning, development, maintenance, and operation of enterprise application
-software-as-a-service.
+In summary, the methods and tools set out in this playbook, when used in combination, will significantly increase the chances of successful outcomes in a software development project. But much else is needed, besides.
