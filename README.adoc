@@ -1,48 +1,23 @@
 = Playbook
 
-[NOTE]
-======
-This repository is a template for a software development playbook. It is
-intended to be forked and customized to suit the needs of a particular
-organization. The content of this repository is distributed under a Creative
-Commons license and you are free to copy and adapt it for your own purposes.
-======
-
-This is a playbook for the design, planning, development, maintenance, and
-operation of software-as-a-service products. It documents methods and tools
-for the delivery of high quality, continuously evolving software services.
+This is a *software development playbook*. It is a reference guide for organizations that need to plan, design, develop, maintain, operate, and support software systems. It describes a project workflow and a collection of best practices that, used in combination, have proven to be consistently effective at delivering high quality software on time and on budget.
 
 == Contents
 
-* link:./introduction[*Introduction*]
-  — The purpose and scope of this engineering playbook.
+* *link:./introduction[Introduction]* — The scope and objectives of this software development playbook. Start here.
 
-* link:./definitions[*Definitions*]
-  — Definitions of jargon terms used throughout the playbook.
+* *link:./principles[Principles]* — Ideas that underpin the ways of working advocated in this playbook.
 
-* link:./principles[*Principles*]
-  — Ideas that underpin the ways of working advocated in this playbook.
+* *link:./practices[Practices]* — Regular activities and procedures.
 
-* link:./practices[*Practices*]
-  — Regular activities and procedures.
+* *link:./artifacts[Artifacts]* — Besides code, other artifacts are produced from the software development process.
 
-* link:./artifacts[*Artifacts*]
-  — Besides code, other artifacts are produced from the software development
-    process.
+* *link:./hiring[Hiring]* — How to hire and onboard new team members.
 
-* link:./hiring[*Hiring*]
-  — How to hire and onboard new team members.
+* *link:./references.adoc[References]* — A list of resources that have influenced the methods and tools described in this playbook.
+
+* *link:./CONTRIBUTING.adoc[Contributing]* — How to contribute to this playbook.
 
 ''''
 
-* link:./references.adoc[*References*]
-  — A list of resources that have influenced the methods and tools documented in
-    this engineering playbook.
-
-* link:./CONTRIBUTING.adoc[*Contributing*]
-  — How to contribute to this playbook.
-
-''''
-
-Copyright © 2020-2025 Kieran Potts +
-link:./LICENSE.txt[CC BY-SA 4.0]
+Copyright © 2020-present Kieran Potts, link:./LICENSE.txt[CC BY-SA 4.0 license]
