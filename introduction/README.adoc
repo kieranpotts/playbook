@@ -1,25 +1,15 @@
 = Introduction
 
-== Contents
+* *link:./definition.adoc[Definition]* — What is a software development playbook?
 
-* link:./definition.adoc[*Definition*]
-  — What is a software development playbook?
+* *link:./scope.adoc[Scope]* — The aspects of software development that are covered by this playbook.
 
-* link:./scope.adoc[*Scope*]
-  — What aspects of software development are covered by a playbook?
+* *link:./context.adoc[Context]* — The types of software projects for which this playbook is intended.
 
-* link:./philosophy.adoc[*Philosophy*]
-  — The guiding principles that underpin the approach that this particular
-    playbook takes to software development.
+* *link:./philosophy.adoc[Philosophy]* — The guiding principles that underpin this playbook's approach to software development.
 
-* link:./objectives.adoc[*Objectives*]
-  — The goals that this playbook aims to achieve.
+* *link:./inspiration.adoc[Inspiration]* — The sources of inspiration for this playbook.
 
-* link:./limitations.adoc[*Limitations*]
-  — The boundaries of what this playbook covers.
+* *link:./usage.adoc[Usage]* — How you should use this playbook.
 
-* link:./inspiration.adoc[*Inspiration*]
-  — The sources of inspiration for this playbook.
-
-* link:./terminology.adoc[*Terminology*]
-  — Definitions of jargon words and phrases used in this playbook.
+* *link:./terminology.adoc[Terminology]* — Definitions of jargon terms used throughout the playbook.

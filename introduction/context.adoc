@@ -6,7 +6,7 @@ There can never be a universal playbook for running all kinds of software projec
 
 For example, the methods and tools used to develop embedded software for a medical device ought to be very different to the methods and tools used to develop a mobile app for a consumer market sector. They're both software systems, but they have very different sets of requirements and technical constraints, and they serve very different commercial sectors and user groups.
 
-This particular playbook is focused on the development of *software-as-a-service (SaaS)* solutions, and with a particular emphasis on *enterprise application software* (EAS) as-a-service. This is a category of software that serves the needs of organizations (public or private sector) rather than individual people, is typically delivered over the web, and which continuously evolves through regular updates.
+This particular playbook is focused on the development of *software-as-a-service (SaaS)* solutions, and with a particular emphasis on *enterprise application software* (EAS). This is a category of software that serves the needs of organizations (public or private sector) rather than individual people, is typically delivered over the web, and which continuously evolves through regular updates.
 
 Basically, this particular software development playbook is optimized for *business web applications* and *web services*.
 

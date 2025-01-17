@@ -2,7 +2,7 @@
 
 This software development playbook is rooted in the values and principles of the https://agilemanifesto.org/[agile manifesto] and the practices of http://www.extremeprogramming.org/[Extreme Programming (XP)]. The _original_ agile principles, fused into the practices of the _original_ agile framework, XP, provide the best foundation for building enterprise application software-as-a-service, particularly at scale.
 
-Unfortunately, a lot of process dogma has emerged in the years since the 2001 agile manifesto. Project management frameworks such as https://www.scrum.org/learning-series/what-is-scrum/[Scrum] and https://kanbanguides.org/[Kanban] have hijacked the "agile" brand, so the colloquial meaning of the term has changed from the intent of the manifesto authors. This has resulted in a lot of confusion in our industry about what it means to be "agile" in software development.
+Unfortunately, a lot of process dogma has emerged in the years since the 2001 agile manifesto. Project management frameworks such as https://www.scrum.org/learning-series/what-is-scrum/[Scrum] and https://kanbanguides.org/[Kanban] have hijacked the "agile" brand, so the colloquial meaning of that term has changed from the intent of the manifesto authors. This has resulted in a lot of confusion in our industry about what it means to be "agile" in software development.
 
 For this reason, this playbook does not use the word "agile" at all.
 

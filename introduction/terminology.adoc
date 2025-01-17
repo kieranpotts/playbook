@@ -1,64 +1,34 @@
 = Terminology
 
+It is important for all stakeholders in an IT project to share a common language. This section defines some "jargon" terms that are used throughout the playbook. Their meaning is important.
+
 == Requirements levels
 
-Throughout this documentation, the following terms, when capitalized, shall
-indicate requirement levels as defined in
-https://datatracker.ietf.org/doc/html/rfc2119[IETF RFC 2119]:
+Throughout this documentation, the following terms, when capitalized, shall indicate requirement levels as defined in https://datatracker.ietf.org/doc/html/rfc2119[IETF RFC 2119]:
 
-* "REQUIRED" and "MUST"/"MUST NOT"
-* "RECOMMENDED" and "SHOULD"/"SHOULD NOT"
-* "OPTIONAL" and "MAY"
+* *REQUIRED* and *MUST*/*MUST NOT*: Refer to an absolute requirement of this playbook.
+
+* *RECOMMENDED* and *SHOULD*/*SHOULD NOT*: Refer to a best practice that is recommended but not required by this playbook.
+
+* *OPTIONAL* and *MAY*: Refer to a practice that is not required but may be useful in some circumstances.
 
 == Stakeholder roles
 
-In this documentation, the term *software delivery* is used to refer to the
-end-to-end life cycle process of designing, planning, building, constructing,
-testing, releasing, maintaining, supporting, and operating software products.
-The term *delivery team* refers to a group of people who are collectively
-responsible for this whole process. Delivery teams are cross-functional, which
-means they are composed of people with different skills and expertise – as
-defined in the [roles] section of this playbook.
+In this documentation, the term *software delivery* is used to refer to the end-to-end life cycle process of designing, planning, building, constructing, testing, releasing, maintaining, supporting, and operating software products. The term *delivery team* refers to a group of people who are collectively responsible for this whole process. Delivery teams are cross-functional, which means they are composed of people with different skills and expertise – as defined in the *[roles* section of this playbook.
 
-The terms *customer* and *user* refer to similar, but distinct, stakeholder
-groups. Customers are the people or organizations who pay for a license or
-subscription to use the software, or who commissions the bespoke development of
-custom software, while users are the people who use the software. Consider,
-for example, a learning management system. The customers will normally be
-schools, universities, and other educational institutions. The users will be the
-students and teachers.
+The terms *customer* and *user* refer to similar, but distinct, stakeholder groups. Customers are the people or organizations who pay for a license or subscription to use the software, or who commission the bespoke development of custom software, while users are the people who use the software. Consider, for example, a learning management system. The customers will normally be schools, universities, and other educational institutions. The users will be the students and teachers.
 
-For simplicity, we can assume that all customers will also be users of the
-software (ie. customers are a subset of users). However, not all users will
-necessarily be customers.
+For simplicity, we can assume that all customers will also be users of the software (ie. customers are a subset of users). However, not all users will necessarily be customers.
 
 [NOTE]
 ======
-The term "the business" is sometimes used to refer to the organization or
-organizations for which the software is being developed. But this term is a
-little nebulous. It can mean different things to different people in different
-contexts. For this reason, in this playbook the term "customer" is preferred.
+The term "the business" is sometimes used to refer to the organization or organizations for which the software is being developed. But this term is a little nebulous. It can mean different things to different people in different contexts. For this reason, in this playbook the term "customer" is preferred.
 ======
 
-The term *vendor* is used to refer to the organization who is paid by the
-customer to develop, maintain, and operate the software on their behalf. The
-vendor produces the intellectual property in the software's source code and
-configuration. Either the customer ultimately owns that intellectual property,
-by paying the vendor the full cost of developing the software, or the customer
-pays a license fee to the vendor to use the software, perhaps for only a limited
-time.
+The term *vendor* is used to refer to the organization who is paid by the customer to develop, maintain, and operate the software on their behalf. The vendor produces the intellectual property in the software's source code and configuration. Either the customer ultimately owns that intellectual property, by paying the vendor the full cost of developing the software, or the customer pays a license fee to the vendor to use the software, perhaps for only a limited time.
 
-Delivery teams operate within the vendor organization. But, where bespoke
-software is developed and used internally within the same organization, the
-vendor and the customer will be the same entity. In-house delivery teams
-develop, maintain and operate software for their employer.
+Delivery teams operate within the vendor organization. But, where bespoke software is developed and used internally within the same organization, the vendor and the customer will be the same entity. In-house delivery teams develop, maintain and operate software for their employer.
 
-The delivery team, the customers and users, and the vendor, are all
-*stakeholders* in a software delivery projects. All these groups have vested
-interests in the successful delivery of the software. There may be other
-stakeholders, such as financial backers, regulatory bodies, and industry
-associations.
+The delivery team, the customers and users, and the vendor, are all *stakeholders* in a software delivery project. All these groups have vested interests in the successful delivery of the software. There may be other stakeholders, too, such as financial backers, regulatory bodies, and industry associations.
 
-These distinctions are important because each group of stakeholders has different
-interests and concerns, and these varying interests and concerns need to be
-considered when designing and planning the implementation of software solutions.
+These distinctions are important because each group of stakeholders has different interests and concerns, and these varying interests and concerns need to be considered when designing and planning the implementation of software solutions.

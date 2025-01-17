@@ -1,0 +1,13 @@
+= Usage
+
+No two software projects are ever the same. There are just too many variables in requirements, constraints, skills, and experiences for two similar projects to run in exactly the same way.
+
+For this reason, a software development playbook works best when it is treated, not as a rigid set of rules and procedures, but as a set of continuously evolving principles and practices that the software development teams have found, through experience and experimentation, to be most effective.
+
+This playbook, then, should be treated as a starting point for newly formed teams. It provides a workflow and a suite of best practices that can be quickly adopted for new projects. But the aim should be to adapt and evolve these practices over time, as the team learns from its experiences, adapts to changing contexts in which it operates, and experiments with alternative ways of working, some of which may prove to be more effective at solving the particular challenges of the project at hand.
+
+Just as software itself is best developed iteratively and incrementally, so too should a team's ways of working be continuously improved.
+
+This requires teams to have *autonomy* over their ways of working, rather than this being regulated by some centralized authority within the team's organization. This playbook is not intended to be used to _enforce_ a particular way of working on any team, but rather to _empower_ autonomous teams to adopt industry best practices by default and to subsequently adapt those practices to suit their own unique (and continuously changing) circumstances.
+
+This playbook provides guidance on how teams should define their own ways of working, and procedures they can follow to continuously improve their ways of working.
