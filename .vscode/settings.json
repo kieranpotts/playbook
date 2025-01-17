@@ -62,6 +62,7 @@
   https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
   */
 
+  /* Enable support for embedded diagrams in Markdown, using PlantUML directly. */
   // "plantuml.server": "https://www.plantuml.com/plantuml",
   "plantuml.server": "http://localhost:8080",
   "plantuml.render": "PlantUMLServer",
