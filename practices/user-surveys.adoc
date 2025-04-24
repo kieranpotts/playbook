@@ -2,11 +2,9 @@
 
 User surveys have two purposes:
 
-* To link:../principles/measurement.adoc[measure] the _outcomes_ and _value_
-  delivered for users.
+* To link:../principles/measurement.adoc[measure] the _outcomes_ and _value_ delivered for users.
 
-* To identify the remaining pain points for users, and identify areas where
-  the user experience or the value derived from the product can be improved.
+* To identify the remaining pain points for users, and identify areas where the user experience or the value derived from the product can be improved.
 
 == Questions to measure value delivered
 
@@ -14,8 +12,7 @@ User surveys have two purposes:
 
 * Do you believe the product delivers real value for you?
 
-* Does the solution have a unique value proposition, something that sets it
-  apart from competitors?
+* Does the solution have a unique value proposition, something that sets it apart from competitors?
 
 == Questions to discover opportunities to increase value
 

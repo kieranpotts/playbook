@@ -2,29 +2,17 @@
 
 :link-graham: https://www.paulgraham.com/makersschedule.html
 
-The software delivery process advocated in this playbook prioritizes deep work.
-The aim is to address one of the biggest productivity killers in current-day
-knowledge work: distractions.
+The software delivery process advocated in this playbook prioritizes deep work. The aim is to address one of the biggest productivity killers in current-day knowledge work:
 
-The term "deep work" was popularized by Cal Newport in his book "Deep Work:
-Rules for Focused Success in a Distracted World". Deep work is the kind of
-task that requires lots of brain power and lots of time. It is the opposite of
-shallow work, which is any kind of task that you can do without being 100%
-engaged.
+Distractions.
 
-Deep work is related to the concept of "flow state" in psychology, which is the
-state of mind where you are so completely absorbed in a task that you lose track
-of time. More colloquially, this is known as being "in the zone".
+The term "deep work" was popularized by Cal Newport in his book "Deep Work: Rules for Focused Success in a Distracted World". Deep work is the kind of task that requires lots of brain power and lots of time. It is the opposite of shallow work, which is any kind of task that you can do without being 100% engaged.
 
-Most tasks -- not all of them, but _most_ -- in software delivery are deep work
-tasks. Deep work is not restricted to coding. Reviewing pull requests, writing
-design documents and requirements specifications, and log analysis and debugging
--- all these are deep work tasks. Better to block out whole mornings, whole
-afternoons, or even whole days, for each discrete task in any of these work
-categories.
+Deep work is related to the concept of "flow state" in psychology, which is the state of mind where you are so completely absorbed in a task that you lose track of time. More colloquially, this is known as being "in the zone".
 
-Therefore, we ought to structure our delivery process to maximize the
-amount of time we spend in deep work mode.
+Most tasks – not all of them, but _most_ – in software delivery are deep work tasks. Deep work is not restricted to coding. Reviewing pull requests, writing design documents and requirements specifications, and log analysis and debugging – all these are deep work tasks. Better to block out whole mornings, whole afternoons, or even whole days, for each discrete task in any of these work categories.
+
+Therefore, we ought to structure our delivery process to maximize the amount of time we spend in deep work mode.
 
 == Benefits
 
@@ -32,181 +20,91 @@ In software delivery, deep work has many benefits, including:
 
 * Higher productivity (which means values is delivered more quickly to users).
 * Higher quality code (and better documentation and other supporting artifacts).
-* Fewer bugs (and other types of mistakes that would cost more time and money
-  later).
-* Better outcomes for users (you are more likely to produce a "correct" and high
-  quality solution when you are totally absorbed in the problem).
-* Improved skills (people tend to learn the most when they are focused on
-  solving complex problems).
+* Fewer bugs (and other types of mistakes that would cost more time and money later).
+* Better outcomes for users (you are more likely to produce a "correct" and high quality solution when you are totally absorbed in the problem).
+* Improved skills (people tend to learn the most when they are focused on solving complex problems).
 
-The stereotype of the computer programmer who works alone in a basement wearing
-headphones has some truth to it. This sort of intense focus is a reflection of
-the type of work that we do, rather than the type of people who do it.
-It is for this reason that the other big benefit of deep work is a better
-*developer experience*. Developers are happier when they have the opportunity
-to work deeply. For many developers, this is the natural way of working on
-coding problems.
+The stereotype of the computer programmer who works alone in a basement wearing headphones has some truth to it. This sort of intense focus is a reflection of the type of work that we do, rather than the type of people who do it. It is for this reason that the other big benefit of deep work is a better *developer experience*. Developers are happier when they have the opportunity to work deeply. For many developers, this is the natural way of working on coding problems.
 
 == Requirements
 
-Deep work is the natural way of working on personal, solo software projects.
-But to achieve this in the context of the collaborative environments of
-commercial software delivery, we need to be more deliberate about how we
-organize our work.
+Deep work is the natural way of working on personal, solo software projects. But to achieve this in the context of the collaborative environments of commercial software delivery, we need to be more deliberate about how we organize our work.
 
-Flow state does not happen by accident. In professional contexts, allowing
-for deep work requires working conditions to be designed specifically to support
-it.
+Flow state does not happen by accident. In professional contexts, allowing for deep work requires working conditions to be designed specifically to support it.
 
-Requirements for deep work include a quiet, clutter-free environment, and
-extensive periods of uninterrupted time.
+Requirements for deep work include a quiet, clutter-free environment, and extensive periods of uninterrupted time.
 
 === Time management
 
-In knowledge-based and creative work, to achieve deep focus on a task, it can
-take at least 15 minutes to get going, and only by the 45 minute mark will you
-have been able to tune your mind to total focus on the problem at hand. Every
-time you are distracted, the clock resets.
+In knowledge-based and creative work, to achieve deep focus on a task, it can take at least 15 minutes to get going, and only by the 45 minute mark will you have been able to tune your mind to total focus on the problem at hand. Every time you are distracted, the clock resets.
 
-The more *context switching* there is in a person's work day, the less
-likely they are to achieve flow state.
+The more *context switching* there is in a person's work day, the less likely they are to achieve flow state.
 
-Thus, to achieve deep work, and to stand any chance of achieving flow state
-in any given working day, there MUST be multiple hours in the day that are
-entirely interruption free.
+////
+////
+
+Thus, to achieve deep work, and to stand any chance of achieving flow state in any given working day, there MUST be multiple hours in the day that are entirely interruption free.
 
 Good time management is therefore an essential requirement for deep work.
 
-Critically, to allow for deep work within an organization, time must be managed
-at the team and organization levels, not only at the individual level. To
-understand why, read Paul Graham's oft-quoted {link-graham}[2009 blog post]
-titled "Maker's Schedule, Manager's Schedule". Graham brilliantly articulates
-the underlying cause of poor productivity in many current-day software delivery
-organizations: the clash of schedules between "managers" and "makers".
+Critically, to allow for deep work within an organization, time must be managed at the team and organization levels, not only at the individual level. To understand why, read Paul Graham's oft-quoted {link-graham}[2009 blog post] titled "Maker's Schedule, Manager's Schedule". Graham brilliantly articulates the underlying cause of poor productivity in many current-day software delivery organizations: the clash of schedules between "managers" and "makers".
 
 [quote, Paul Graham, Maker's Schedule, Manager's Schedule]
 ____
-There are two types of schedule, which I'll call the manager's schedule and the
-maker's schedule. The manager's schedule is for bosses. It's embodied in the
-traditional appointment book, with each day cut into one hour intervals. You can
-block off several hours for a single task if you need to, but by default you
-change what you're doing every hour.
+There are two types of schedule, which I'll call the manager's schedule and the maker's schedule. The manager's schedule is for bosses. It's embodied in the traditional appointment book, with each day cut into one hour intervals. You can block off several hours for a single task if you need to, but by default you change what you're doing every hour.
 
 ...
 
-Most powerful people are on the manager's schedule. It's the schedule of command.
-But there's another way of using time that's common among people who make things,
-like programmers and writers. They generally prefer to use time in units of half
-a day at least. You can't write or program well in units of an hour.
-That's barely enough time to get started.
+Most powerful people are on the manager's schedule. It's the schedule of command. But there's another way of using time that's common among people who make things, like programmers and writers. They generally prefer to use time in units of half a day at least. You can't write or program well in units of an hour. That's barely enough time to get started.
 
-When you're operating on a maker's schedule, meetings are a disaster. A single
-meeting can blow a whole afternoon, by breaking it into two pieces, each too
-small to do anything hard in.
+When you're operating on a maker's schedule, meetings are a disaster. A single meeting can blow a whole afternoon, by breaking it into two pieces, each too small to do anything hard in.
 
 ...
 
-For someone on the maker's schedule, having a meeting is like throwing an
-exception. It doesn't merely cause you to switch from one task to another; it
-changes the mode in which you work.
+For someone on the maker's schedule, having a meeting is like throwing an exception. It doesn't merely cause you to switch from one task to another; it changes the mode in which you work.
 ____
 
-Meetings are widely recognized as a productivity killer in software delivery.
-But the problem is not meetings themselves, but rather the way they are
-scheduled at the convenience of managers.
+Meetings are widely recognized as a productivity killer in software delivery. But the problem is not meetings themselves, but rather the way they are scheduled at the convenience of managers.
 
-The solution is for the delivery teams to be given the autonomy to define the
-*bookable times* of the team members. Other members of the organization outside
-of the team's delivery unit, including managers, are restricted to booking
-meetings within those allocated times.
+The solution is for the delivery teams to be given the autonomy to define the *bookable times* of the team members. Other members of the organization outside of the team's delivery unit, including managers, are restricted to booking meetings within those allocated times.
 
-This delivery playbook RECOMMENDS that teams allocated *at least three days
-per week* for deep work. This means that on those days, there are no bookable
-times available for any team members. Therefore, the only collaboration
-undertaken during the deep work days are between team members.
+This delivery playbook RECOMMENDS that teams allocated *at least three days per week* for deep work. This means that on those days, there are no bookable times available for any team members. Therefore, the only collaboration undertaken during the deep work days are between team members.
 
-Ideally, bookable times would be a team-wide agreement; the bookable times would
-be the same for all team members. This maximizes the amount of time that team
-members have available to work together without interruptions.
+Ideally, bookable times would be a team-wide agreement; the bookable times would be the same for all team members. This maximizes the amount of time that team members have available to work together without interruptions.
 
-Better still, the team's bookable times should be aligned with the team's
-software release cycle, such that the team members are available for meetings
-with stakeholders only in the days immediately following a release. The rest of
-the release cycle is dedicated to deep work.
+Better still, the team's bookable times should be aligned with the team's software release cycle, such that the team members are available for meetings with stakeholders only in the days immediately following a release. The rest of the release cycle is dedicated to deep work.
 
-Such as  inversion of the traditional power dynamic requires this policy to be
-established at the highest levels of the organization. It requires a commitment
-to supporting deep work as a core value of the organization. Some compromises
-will be necessary, of course. For example, the organization may require that all
-delivery teams are available for organization-wide meetings on specific days
-every month. But to allow for deep work means the organization must commit to
-allowing this to be the default mode of working for its delivery teams.
+Such as  inversion of the traditional power dynamic requires this policy to be established at the highest levels of the organization. It requires a commitment to supporting deep work as a core value of the organization. Some compromises will be necessary, of course. For example, the organization may require that all delivery teams are available for organization-wide meetings on specific days every month. But to allow for deep work means the organization must commit to allowing this to be the default mode of working for its delivery teams.
 
 === Environmental factors
 
-Open plan offices are anathema to deep work. They are designed to encourage
-collaboration, which is beneficial for software delivery. The problem is they
-are terrible for deep, focused work -- even when working in pairs or groups.
+Open plan offices are anathema to deep work. They are designed to encourage collaboration, which is beneficial for software delivery. The problem is they are terrible for deep, focused work -- even when working in pairs or groups.
 
-Deep work does not have to be solitary work. In fact, you are more likely to
-achieve flow state when you are working in pairs or small groups. But the
-environment must be designed to isolate the individual or the group from
-distractions and anything that is not directly related to the task at hand.
+Deep work does not have to be solitary work. In fact, you are more likely to achieve flow state when you are working in pairs or small groups. But the environment must be designed to isolate the individual or the group from distractions and anything that is not directly related to the task at hand.
 
-The environment should be free of clutter, and it should be quiet (though low
-background music can, sometimes, help _increase_ focus). The work area should be
-free of phones, email, chatops applications, and anything else that could cause
-interruptions.
+The environment should be free of clutter, and it should be quiet (though low background music can, sometimes, help _increase_ focus). The work area should be free of phones, email, chatops applications, and anything else that could cause interruptions.
 
-If collaborating in-person, rather than remotely through video conferencing
-technology, prefer to work in a room with a door that can be closed.
+If collaborating in-person, rather than remotely through video conferencing technology, prefer to work in a room with a door that can be closed.
 
 === Etiquette
 
-To achieve deep work, we need to manage both or time and our work environments
-in a way that supports it. In addition, we also need to establish good etiquette
-in how we communicate with each other.
+To achieve deep work, we need to manage both or time and our work environments in a way that supports it. In addition, we also need to establish good etiquette in how we communicate with each other.
 
-Etiquette is a set of norms for polite behavior in a society. In the context of
-an organization, we can define corporate etiquette as a set of codes for how
-people within the organization are expected to interact with one another.
-Etiquette can help to promote deep work by normalizing behaviors that support
-it, and discouraging behaviors that cause distractions.
+Etiquette is a set of norms for polite behavior in a society. In the context of an organization, we can define corporate etiquette as a set of codes for how people within the organization are expected to interact with one another. Etiquette can help to promote deep work by normalizing behaviors that support it, and discouraging behaviors that cause distractions.
 
-We've already touched on this. Booking time on the makers' schedules is the
-first step that software delivery organizations can take toward creating a
-culture of deep work.
+We've already touched on this. Booking time on the makers' schedules is the first step that software delivery organizations can take toward creating a culture of deep work.
 
-In addition, this delivery playbook RECOMMENDS the following etiquette be
-established in software delivery practices (or, indeed, in any organization
-that wants to promote deep work). These norms could be established in a team
-charter or an employee guidebook, for example.
+In addition, this delivery playbook RECOMMENDS the following etiquette be established in software delivery practices (or, indeed, in any organization that wants to promote deep work). These norms could be established in a team charter or an employee guidebook, for example.
 
-* When scheduling meetings, invite the minimum number of people, communicate
-  the agenda in advance, communicate the outcomes to be achieved, and cap the
-  duration of meetings at 40 minutes. Longer meetings should be split into
-  multiple sessions with 20 minutes break between them.
+* When scheduling meetings, invite the minimum number of people, communicate the agenda in advance, communicate the outcomes to be achieved, and cap the duration of meetings at 40 minutes. Longer meetings should be split into multiple sessions with 20 minutes break between them.
 
-* ChatOps applications should not be treated as instant messaging systems.
-  People should be encouraged to switch off notifications, or to "go offline"
-  entirely, and to check messages no more than twice a day (at the start and end
-  of the day). Managers should set an example by not replying to every message
-  immediately.
+* ChatOps applications should not be treated as instant messaging systems. People should be encouraged to switch off notifications, or to "go offline" entirely, and to check messages no more than twice a day (at the start and end of the day). Managers should set an example by not replying to every message immediately.
 
 === Other requirements
 
-Other factors that promote deep work include maintaining a healthy work-life
-balance, getting a good night's sleep, having a healthy diet, taking regular
-breaks, and moving and exercising a lot. Deep work is easier to achieve when
-you are in good physical and mental health. These topics are outside the scope
-of this playbook, but only to say that organization should support delivery
-teams in maintaining good health.
+Other factors that promote deep work include maintaining a healthy work-life balance, getting a good night's sleep, having a healthy diet, taking regular breaks, and moving and exercising a lot. Deep work is easier to achieve when you are in good physical and mental health. These topics are outside the scope of this playbook, but only to say that organization should support delivery teams in maintaining good health.
 
-Finally, many of the practices and artifacts in this playbook also help to
-promote deep work. For example, [technical documentation] and
-[requests for comments] support asynchronous communication between team
-members, thereby reducing the volume of noise within a team's internal
-communications.
+Finally, many of the practices and artifacts in this playbook also help to promote deep work. For example, [technical documentation] and [requests for comments] support asynchronous communication between team members, thereby reducing the volume of noise within a team's internal communications.
 
 ''''
 

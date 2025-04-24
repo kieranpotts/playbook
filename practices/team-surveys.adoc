@@ -6,97 +6,44 @@
 :link-getdx-1: https://getdx.com/podcast/shopify-developer-happiness-survey/
 :link-getdx-2: https://getdx.com/podcast/developer-productivity-at-google/
 
-Team surveys – sometimes called team health checks – are an effective
-method for studying how well – or how badly – a software project is going.
+Team surveys – sometimes called team health checks – are an effective method for studying how well – or how badly – a software project is going.
 
-Team surveys measure the "developer experience", or the sentiment of the team
-members towards the project and to their fellow teammates. This is
-important because productivity, after all, is directly related to job
-satisfaction and team behaviors.
+Team surveys measure the "developer experience", or the sentiment of the team members towards the project and to their fellow teammates. This is important because productivity, after all, is directly related to job satisfaction and team behaviors.
 
 ****
-The practice of surveying software delivery teams on the "health" of their team
-and projects was {link-spotify-2014}[popularized by Spotify], though the
-practice is not new and has taken different forms over many decades.
+The practice of surveying software delivery teams on the "health" of their team and projects was {link-spotify-2014}[popularized by Spotify], though the practice is not new and has taken different forms over many decades.
 ****
 
-Team surveys gather qualitative data in a structured format that can be
-easily analyzed and visualized, and trends easily tracked over time. They
-compliment [delivery metrics], which are based on more quantitative data.
-Delivery metrics objectively tell us things like how often changes are deployed
-to production successfully, how long on average it takes to complete a
-deployment, and how often the deployment pipeline fails. Team surveys give us
-subjective views on things like the evolving quality of the software and how
-well a team functions as a cohesive delivery unit. Team surveys tend also to be
-better at revealing areas for improvement in ways of working and other human
-aspects of software delivery.
+Team surveys gather qualitative data in a structured format that can be easily analyzed and visualized, and trends easily tracked over time. They compliment [delivery metrics], which are based on more quantitative data. Delivery metrics objectively tell us things like how often changes are deployed to production successfully, how long on average it takes to complete a deployment, and how often the deployment pipeline fails. Team surveys give us subjective views on things like the evolving quality of the software and how well a team functions as a cohesive delivery unit. Team surveys tend also to be better at revealing areas for improvement in ways of working and other human aspects of software delivery.
 
-Together, delivery metrics and team surveys provide a complete, holistic view
-of the effectiveness and efficiency of the software delivery process.
+Together, delivery metrics and team surveys provide a complete, holistic view of the effectiveness and efficiency of the software delivery process.
 
-Team surveys also compliment user surveys. User surveys are a great way to
-gauge the value and outcomes delivered by the software from the perspective of
-its users. But other perspectives need to be taken into account to fully
-understand the value delivered. After all, the value delivered by software can
-actually be increased in two ways:
+Team surveys also compliment user surveys. User surveys are a great way to gauge the value and outcomes delivered by the software from the perspective of its users. But other perspectives need to be taken into account to fully understand the value delivered. After all, the value delivered by software can actually be increased in two ways:
 
 * By increasing the quantity and quality of features.
 * By decreasing the effort involved in delivering those features.
 
-Investing in a proper design system for the UI has an up-front cost, and it does
-not delivery immediate value to users. But it will mean that developers can
-thereafter respond more quickly to changing UI requirements. Likewise,
-investment in documentation and automation has up-front costs but long-term
-benefits for both the business and its customers.
+Investing in a proper design system for the UI has an up-front cost, and it does not delivery immediate value to users. But it will mean that developers can thereafter respond more quickly to changing UI requirements. Likewise, investment in documentation and automation has up-front costs but long-term benefits for both the business and its customers.
 
-Therefore, any qualitative assessment of the value delivered by a team should
-take into account not only the functional requirements delivered, but also
-non-functional requirements such as security and performance, and internal
-quality improvements such as refactoring and technical debt reduction. User
-surveys give us a great perspective of delivered value in terms of functional
-requirements, while team surveys balance that out with an assessment of the
-value delivered in terms of quality and non-functional requirements.
+Therefore, any qualitative assessment of the value delivered by a team should take into account not only the functional requirements delivered, but also non-functional requirements such as security and performance, and internal quality improvements such as refactoring and technical debt reduction. User surveys give us a great perspective of delivered value in terms of functional requirements, while team surveys balance that out with an assessment of the value delivered in terms of quality and non-functional requirements.
 
-Team surveys have numerous other benefits. They serve as an early-warning system
-for projects that are steadily going off-course. Sentiment tends to decrease
-before delivery metrics such as cycle time start to appreciably deteriorate.
-[Project managers] can therefore respond early, for example by delivery resources
-to the teams under the most strain. Team surveys also help to provide more
-context to delivery metrics. For example, they can often provide insight into
-the _why_ of trends in delivery metrics.
+Team surveys have numerous other benefits. They serve as an early-warning system for projects that are steadily going off-course. Sentiment tends to decrease before delivery metrics such as cycle time start to appreciably deteriorate. [Project managers] can therefore respond early, for example by delivery resources to the teams under the most strain. Team surveys also help to provide more context to delivery metrics. For example, they can often provide insight into the _why_ of trends in delivery metrics.
 
-Team surveys also help delivery teams themselves to work autonomously. They
-provide a feedback mechanism to help teams collectively learn and improve. In
-this regards, team surveys offer an alternative to retrospectives as a method
-for reflecting on what's working and what needs improving.
+Team surveys also help delivery teams themselves to work autonomously. They provide a feedback mechanism to help teams collectively learn and improve. In this regards, team surveys offer an alternative to retrospectives as a method for reflecting on what's working and what needs improving.
 
-Team surveys are RECOMMENDED for organizations with two or more
-technical teams, but will be beneficial for smaller organizations too.
+Team surveys are RECOMMENDED for organizations with two or more technical teams, but will be beneficial for smaller organizations too.
 
 == Implementing team surveys
 
-Team surveys can be easily implemented using software services such as Google
-Sheets or Airtable, allowing for easy analysis and visualization of the results.
+Team surveys can be easily implemented using software services such as Google Sheets or Airtable, allowing for easy analysis and visualization of the results.
 
-Team surveys should be conducted at regular intervals, far enough apart to be
-meaningful but not so far apart that downtrends are caught late. About once
-every three months will be a good cadence for most software projects. Staff
-should be given plenty of time to think about their responses. They should be
-able to save draft responses and submit them later. Surveys should be kept open
-for two to four weeks.
+Team surveys should be conducted at regular intervals, far enough apart to be meaningful but not so far apart that downtrends are caught late. About once every three months will be a good cadence for most software projects. Staff should be given plenty of time to think about their responses. They should be able to save draft responses and submit them later. Surveys should be kept open for two to four weeks.
 
-Answers should be collected anonymously. This will encourage more thoughtful
-and honest – and therefore more valuable – responses.
+Answers should be collected anonymously. This will encourage more thoughtful and honest – and therefore more valuable – responses.
 
-For easy analysis, most questions should be answerable with a simple "Yes",
-"No", or "I don't know". Alternatively, a numerical score of 1 (low) to 5 (high).
-Open-ended questions should be included too. They will help to provide more
-context and insight into the scores given.
+For easy analysis, most questions should be answerable with a simple "Yes", "No", or "I don't know". Alternatively, a numerical score of 1 (low) to 5 (high). Open-ended questions should be included too. They will help to provide more context and insight into the scores given.
 
-Questions may change from survey to survey, but the choice of questions should
-cover the same broad indicators or team and project health. The following
-categories are RECOMMENDED, and example questions for each category are included
-below:
+Questions may change from survey to survey, but the choice of questions should cover the same broad indicators or team and project health. The following categories are RECOMMENDED, and example questions for each category are included below:
 
 1.  *Mission*:
     Are the projects objectives well understood?
@@ -131,42 +78,22 @@ below:
 10. *Culture*:
     Are the team members happy and productive?
 
-There may be some overlap between team surveys and [user surveys]. But in general
-team surveys are focused more on the internal quality of the software (rather
-than the external quality that is experienced by users) and on the software
-development process. Nevertheless, teams can provide technical expertise into
-user-facing quality attributes that users cannot, such as aspects of user
-experience design and accessibility. It is therefore appropriate to include
-questions about these aspects in team surveys.
+There may be some overlap between team surveys and [user surveys]. But in general team surveys are focused more on the internal quality of the software (rather than the external quality that is experienced by users) and on the software development process. Nevertheless, teams can provide technical expertise into user-facing quality attributes that users cannot, such as aspects of user experience design and accessibility. It is therefore appropriate to include questions about these aspects in team surveys.
 
-Team surveys should not replicate what [technical standards] do. For example,
-it should not be necessary to use team surveys to checks that software
-releases are versioned or that the code is properly formatted according to
-the team's adopted conventions. These things should be specified as technical
-standards and verified as part of normal quality assurance procedures. Team
-surveys can help to get more insight into some of the more subjective
-concerns such as levels of abstraction, choices of technologies, and general
-impressions about the evolving quality of the software.
+Team surveys should not replicate what [technical standards] do. For example, it should not be necessary to use team surveys to checks that software releases are versioned or that the code is properly formatted according to the team's adopted conventions. These things should be specified as technical standards and verified as part of normal quality assurance procedures. Team surveys can help to get more insight into some of the more subjective concerns such as levels of abstraction, choices of technologies, and general impressions about the evolving quality of the software.
 
 == Example survey format
 
-Below is an example structure for a team survey. For each statement, the user
-should select a number from 1 to 5, where 1 is strongly disagree and 5 is
-strongly agree. Users may also select N/A is they don't know or have no opinion.
-The higher the overall score, the better the sentiment within the team toward
-the project and their teammates.
+Below is an example structure for a team survey. For each statement, the user should select a number from 1 to 5, where 1 is strongly disagree and 5 is strongly agree. Users may also select N/A is they don't know or have no opinion. The higher the overall score, the better the sentiment within the team toward the project and their teammates.
 
 [TIP]
 ======
-For even more ideas, Google's https://dora.dev/[DevOps Research and Assessment
-(DORA)] program is an excellent example of how to capture objective data from
-developer surveys.
+For even more ideas, Google's https://dora.dev/[DevOps Research and Assessment (DORA)] program is an excellent example of how to capture objective data from developer surveys.
 ======
 
 1.  *Mission*
 
-    **  I have a clear idea of the project's objectives. I understand who the
-        software is for, and what problems it solves.
+    **  I have a clear idea of the project's objectives. I understand who the software is for, and what problems it solves.
 
     **  I understand the different groups of users, and how their needs differ.
 
@@ -176,18 +103,13 @@ developer surveys.
 
 2.  *Requirements*
 
-    **  I understand the software requirements. They are specified using
-        appropriate artifacts such as user stories and acceptance criteria.
+    **  I understand the software requirements. They are specified using appropriate artifacts such as user stories and acceptance criteria.
 
-    **  The requirements are sufficiently refined, though not necessarily
-        complete, by the time development starts.
+    **  The requirements are sufficiently refined, though not necessarily complete, by the time development starts.
 
-    **  The requirements are reasonably stable. They do not change unnecessarily.
-        When the requirements do change, it's because of something that could not
-        have been foreseen.
+    **  The requirements are reasonably stable. They do not change unnecessarily. When the requirements do change, it's because of something that could not have been foreseen.
 
-    **  Quality (non-functional) requirements such as performance and security are
-        specified as measurable, verifiable target metrics.
+    **  Quality (non-functional) requirements such as performance and security are specified as measurable, verifiable target metrics.
 
 3.  *Planning*
 
@@ -195,37 +117,25 @@ developer surveys.
 
     **  I understand the design of the whole system.
 
-    **  I understand the architectural principles that underpin the overall system
-        design. I could describe the architecture at a conceptual level to someone
-        non-technical.
+    **  I understand the architectural principles that underpin the overall system design. I could describe the architecture at a conceptual level to someone non-technical.
 
-    **  The software has a cohesive design. It has a high degree of conceptual
-        integrity, and this is being maintained even as more features are added.
+    **  The software has a cohesive design. It has a high degree of conceptual integrity, and this is being maintained even as more features are added.
 
-    **  The architectural design is appropriate for the business case, and with
-        consideration to the current stage of the product's lifespan.
+    **  The architectural design is appropriate for the business case, and with consideration to the current stage of the product's lifespan.
 
-    **  The system is built around a model of the business domain. A programmer
-        could learn about the business domain from the software's source code.
+    **  The system is built around a model of the business domain. A programmer could learn about the business domain from the software's source code.
 
-    **  Each subsystem has clearly-defined scopes and boundaries to their
-        responsibilities. There are minimal overlaps between the responsibilities
-        of subsystems.
+    **  Each subsystem has clearly-defined scopes and boundaries to their responsibilities. There are minimal overlaps between the responsibilities of subsystems.
 
-    **  The system is loosely coupled. Where things are tightly coupled, it is done
-        deliberately – there are valid design principles that justify the coupling.
+    **  The system is loosely coupled. Where things are tightly coupled, it is done deliberately – there are valid design principles that justify the coupling.
 
-    **  There are well-defined interfaces between services. Service contracts are
-        specified using open standards such as OpenAPI or AsyncAPI, and the API
-        follow common design conventions, such as used of HTTP status codes.
+    **  There are well-defined interfaces between services. Service contracts are specified using open standards such as OpenAPI or AsyncAPI, and the API follow common design conventions, such as used of HTTP status codes.
 
-    **  Service interfaces are versioned, with major versions maintaining backwards
-        compatibility.
+    **  Service interfaces are versioned, with major versions maintaining backwards compatibility.
 
     **  Service APIs use a domain-oriented nomenclature, rather than CRUDy APIs.
 
-    **  Most subsystems communicate with each other asynchronously and indirectly,
-        eg. via events or messages.
+    **  Most subsystems communicate with each other asynchronously and indirectly, eg. via events or messages.
 
    **  Each subsystem manages its own data.
 
@@ -241,47 +151,35 @@ developer surveys.
 
     **  Technical debt is logged.
 
-    **  Components are loosely coupled. It it easy to change one module without
-        breaking another.
+    **  Components are loosely coupled. It it easy to change one module without breaking another.
 
-    **  The code has appropriate levels of documentation, and the documentation is
-        kept close to the code it describes. Documentation is mostly up-to-date.
+    **  The code has appropriate levels of documentation, and the documentation is kept close to the code it describes. Documentation is mostly up-to-date.
 
     **  There is good onboarding documentation.
 
-    **  Documentation includes architectural diagrams and other representations of
-        the system design, as appropriate.
+    **  Documentation includes architectural diagrams and other representations of the system design, as appropriate.
 
-    **  The product is built with appropriate languages and third party frameworks,
-        libraries and services.
+    **  The product is built with appropriate languages and third party frameworks, libraries and services.
 
     **  Abstractions (eg. around data and API access) are appropriate.
 
     **  Internal APIs have well-defined contracts.
 
-    **  Implementation details are hidden behind the internal APIs. For example,
-        database schema do not leak out.
+    **  Implementation details are hidden behind the internal APIs. For example, database schema do not leak out.
 
     **  Data has well-defined schemas.
 
-    **  Back-offs and circuit breakers are in place to improve the resilience of
-        the system against failures in external systems.
+    **  Back-offs and circuit breakers are in place to improve the resilience of the system against failures in external systems.
 
-    **  Overall, the solution is _sufficiently_ engineered. It is neither too
-        over-engineered nor too under-engineered.
+    **  Overall, the solution is _sufficiently_ engineered. It is neither too over-engineered nor too under-engineered.
 
-    **  The product is engineered to a level of quality that is suitable given the
-        product's business domain and the customers' expectations.
+    **  The product is engineered to a level of quality that is suitable given the product's business domain and the customers' expectations.
 
 6.  *Quality assurance*
 
-    **  In my view, the balance of unit, integration, and system tests is about
-        right.
+    **  In my view, the balance of unit, integration, and system tests is about right.
 
-    **  Appropriate tests are run automatically at appropriate points in the
-        development life cycle. For example, efficient unit tests run on fresh
-        commits to upstream branches, while slower integration and e2e tests run
-        on merges to the main branch.
+    **  Appropriate tests are run automatically at appropriate points in the development life cycle. For example, efficient unit tests run on fresh commits to upstream branches, while slower integration and e2e tests run on merges to the main branch.
 
     **  The system is tested for resilience to failures.
 
@@ -291,8 +189,7 @@ developer surveys.
 
 7.  *Operations and automation*
 
-    **  The tools we use help move things along efficiently, rather than get in
-        the way.
+    **  The tools we use help move things along efficiently, rather than get in the way.
 
     **  It is really easy to spin up new environments.
 
@@ -306,40 +203,29 @@ developer surveys.
 
     **  There is a good balance between seniors and juniors.
 
-    **  The team has access to the necessary specialisms, such as system
-        analysts, business analysts, and domain experts.
+    **  The team has access to the necessary specialisms, such as system analysts, business analysts, and domain experts.
 
-    **  There is sufficient domain expertise to verify requirements and validate
-        solutions.
+    **  There is sufficient domain expertise to verify requirements and validate solutions.
 
-    **  The job roles are well defined. I have a clear idea of the scope of my
-        own role. There is good clarity, within the team, on who is responsible
-        for what.
+    **  The job roles are well defined. I have a clear idea of the scope of my own role. There is good clarity, within the team, on who is responsible for what.
 
 9.  *Ways of working*
 
     **  The ways of working are suitable for the project and the team.
 
-    **  The project's governance model is understood, ie. who makes what
-        decisions.
+    **  The project's governance model is understood, ie. who makes what decisions.
 
     **  The system has clear ownership (eg. an Application/Product Owner).
 
-    **  Practices such as code review, pair programming, and test-driven
-        development are sufficient for the project.
+    **  Practices such as code review, pair programming, and test-driven development are sufficient for the project.
 
-    **  Meetings and recurring events (eg. stand-ups, retrospectives) add value,
-        and do not unnecessarily distract from "getting stuff done".
+    **  Meetings and recurring events (eg. stand-ups, retrospectives) add value, and do not unnecessarily distract from "getting stuff done".
 
-    **  Technical discussions are useful and productive, and focused on the
-        right things.
+    **  Technical discussions are useful and productive, and focused on the right things.
 
-    **  The feedback loop is effective. We get user feedback on changes quickly,
-        and before they are released to production.
+    **  The feedback loop is effective. We get user feedback on changes quickly, and before they are released to production.
 
-    **  There is a good balance between the speed of feature development
-        (incremental build) and work done to improve the internal quality of
-        the solution (iterative design).
+    **  There is a good balance between the speed of feature development (incremental build) and work done to improve the internal quality of the solution (iterative design).
 
     **  In general, development is done at a steady, maintainable pace.
 
@@ -353,8 +239,7 @@ developer surveys.
 
     **  I have sufficient freedom to learn and experiment.
 
-    **  The team gets sufficient and timely support from other areas of the
-        business.
+    **  The team gets sufficient and timely support from other areas of the business.
 
     **  Overall, I enjoy the work I'm doing right now.
 

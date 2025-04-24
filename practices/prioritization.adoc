@@ -1,7 +1,6 @@
 = Prioritization
 
-There are several possible strategies for prioritizing work. The RECOMMENDED
-strategy is the MoSCoW convention:
+There are several possible strategies for prioritizing work. The RECOMMENDED strategy is the MoSCoW convention:
 
 * *Must have*:
   The change should be implemented and released as soon as practically possible.

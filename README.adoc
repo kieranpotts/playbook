@@ -1,6 +1,6 @@
 = Playbook
 
-This is a *software development playbook*. It is a reference guide for organizations that need to plan, design, develop, maintain, operate, and support software systems. It describes a project workflow and a collection of best practices that, used in combination, have proven to be consistently effective at delivering high quality software on time and on budget.
+This is a *software development playbook*. It is a reference guide for organizations that need to plan, design, develop, maintain, operate, and support software systems. It describes a project workflow and a collection of best practices that, used in combination, have proven to be consistently effective at delivering high quality software on time and to budget.
 
 == Contents
 

@@ -1,10 +1,6 @@
 = Artifacts
 
-Besides working software, output from the software development process includes
-a range of supporting materials such as test scripts, infrastructure
-configuration, specifications, and various forms of documentation – anything
-which supports the development and operations processes. We call these
-supplementary materials "artifacts".
+Besides working software, output from the software development process includes a range of supporting materials such as test scripts, infrastructure configuration, specifications, and various forms of documentation – anything which supports the development and operations processes. We call these supplementary materials "artifacts".
 
 == Contents
 
