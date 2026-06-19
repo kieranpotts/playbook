@@ -11,4 +11,4 @@ A template for new code repositories.
 
 -----
 
-Copyright © 2020-present Kieran Potts, [MIT license](./LICENSE.txt)
+Copyright © 2020-present Kieran Potts, [CC-BY-SA-4.0 license](./LICENSE.txt)
