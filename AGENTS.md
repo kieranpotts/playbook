@@ -32,7 +32,7 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 - **`command`** for testing.
 
-## Artifacts
+## Documentation
 
 - **Audit reports**:
   ./docs/audits/ (mono-repo)
